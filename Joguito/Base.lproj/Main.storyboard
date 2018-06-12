@@ -1,19 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+        <array key="VarelaRound-Regular.ttf">
+            <string>VarelaRound-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Joguito" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="8sV-e9-j9J">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="SQQ-Wo-x1c">
+                                <rect key="frame" x="137.66666666666666" y="66" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="9mB-TU-CDq"/>
+                                    <constraint firstAttribute="width" constant="100" id="Abc-ME-Ghi"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JOGUITO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5z-mD-Toy">
+                                <rect key="frame" x="157" y="166" width="61" height="16"/>
+                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xaY-fb-3he">
+                                <rect key="frame" x="146.33333333333334" y="240" width="83.666666666666657" height="31.333333333333314"/>
+                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="26"/>
+                                <color key="textColor" red="0.90588235294117647" green="0.92549019607843142" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your mobile no." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lwH-Iw-Q1F" customClass="RoundTextField" customModule="Joguito" customModuleProvider="target">
+                                <rect key="frame" x="20" y="309.33333333333331" width="335" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="uix-cr-yN8"/>
+                                </constraints>
+                                <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" textContentType="tel"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="edgeRadius">
+                                        <real key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="backgroundOppacity">
+                                        <real key="value" value="0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
+                                        <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.50347816779999999" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.50347816780821919" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your email ID" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tp5-ml-Nmh" customClass="RoundTextField" customModule="Joguito" customModuleProvider="target">
+                                <rect key="frame" x="20" y="410.66666666666669" width="335" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Bin-SJ-zIx"/>
+                                </constraints>
+                                <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" textContentType="email"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="backgroundOppacity">
+                                        <real key="value" value="0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="edgeRadius">
+                                        <real key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
+                                        <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.50347816779999999" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.50347816779999999" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q0h-AT-jJV">
+                                <rect key="frame" x="167.66666666666666" y="369.33333333333331" width="39.666666666666657" height="31.333333333333314"/>
+                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="26"/>
+                                <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connect with" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0tY-8Z-f4W">
+                                <rect key="frame" x="125" y="488.66666666666669" width="125.66666666666669" height="24.333333333333314"/>
+                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="20"/>
+                                <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YJ6-KR-7Ip" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
+                                <rect key="frame" x="20" y="531" width="159.66666666666666" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="liv-da-IOZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="18"/>
+                                <inset key="contentEdgeInsets" minX="16" minY="8" maxX="16" maxY="8"/>
+                                <state key="normal" title="Facebook" image="Facebook">
+                                    <color key="titleColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="radius">
+                                        <real key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                        <color key="value" red="0.086274509803921567" green="0.1764705882352941" blue="0.62745098039215685" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Jr-Mn-mec" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
+                                <rect key="frame" x="203.66666666666663" y="531" width="151.33333333333337" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="lNL-2U-9dO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="18"/>
+                                <inset key="contentEdgeInsets" minX="8" minY="8" maxX="24" maxY="8"/>
+                                <state key="normal" title="Google" image="Layer 4">
+                                    <color key="titleColor" red="0.47058823529411764" green="0.45490196078431372" blue="0.45490196078431372" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="radius">
+                                        <real key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMn-Yp-x34" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
+                                <rect key="frame" x="20" y="730" width="335" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="09P-OE-smH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="20"/>
+                                <state key="normal" title="I am already a user">
+                                    <color key="titleColor" red="0.054901960784313725" green="0.10980392156862745" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="radius">
+                                        <real key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                        <color key="value" red="1" green="0.71372549019999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xaY-fb-3he" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Yr-iY-j72"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Jr-Mn-mec" secondAttribute="trailing" constant="20" id="1QU-96-Yil"/>
+                            <constraint firstItem="Q0h-AT-jJV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1XK-v6-TDg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SMn-Yp-x34" secondAttribute="bottom" id="4LG-h7-zgi"/>
+                            <constraint firstItem="0Jr-Mn-mec" firstAttribute="top" secondItem="0tY-8Z-f4W" secondAttribute="bottom" constant="18" id="9Pl-bU-I34"/>
+                            <constraint firstItem="Q0h-AT-jJV" firstAttribute="top" secondItem="lwH-Iw-Q1F" secondAttribute="bottom" constant="10" id="ARZ-n4-VCN"/>
+                            <constraint firstItem="lwH-Iw-Q1F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BDc-5d-bvf"/>
+                            <constraint firstItem="SMn-Yp-x34" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="E8g-Ah-yLG"/>
+                            <constraint firstItem="Tp5-ml-Nmh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="F8o-eL-Vdf"/>
+                            <constraint firstItem="8sV-e9-j9J" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="O99-3Q-XkZ"/>
+                            <constraint firstItem="0tY-8Z-f4W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P6j-pv-Eqs"/>
+                            <constraint firstItem="YJ6-KR-7Ip" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="UZL-Lr-XzP"/>
+                            <constraint firstItem="xaY-fb-3he" firstAttribute="top" secondItem="S5z-mD-Toy" secondAttribute="bottom" constant="58" id="V0g-h6-qMh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SMn-Yp-x34" secondAttribute="trailing" constant="20" id="Vdc-Nx-txb"/>
+                            <constraint firstAttribute="bottom" secondItem="8sV-e9-j9J" secondAttribute="bottom" id="Wee-1D-urb"/>
+                            <constraint firstItem="SQQ-Wo-x1c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X0t-Ib-eha"/>
+                            <constraint firstItem="YJ6-KR-7Ip" firstAttribute="top" secondItem="0tY-8Z-f4W" secondAttribute="bottom" constant="18" id="cY7-ML-DH0"/>
+                            <constraint firstItem="0tY-8Z-f4W" firstAttribute="top" secondItem="Tp5-ml-Nmh" secondAttribute="bottom" constant="28" id="dKY-k4-ISP"/>
+                            <constraint firstAttribute="centerX" secondItem="YJ6-KR-7Ip" secondAttribute="trailing" constant="8" id="gal-Ez-dER"/>
+                            <constraint firstItem="S5z-mD-Toy" firstAttribute="top" secondItem="SQQ-Wo-x1c" secondAttribute="bottom" id="hcC-8r-MaZ"/>
+                            <constraint firstItem="Tp5-ml-Nmh" firstAttribute="top" secondItem="Q0h-AT-jJV" secondAttribute="bottom" constant="10" id="lzh-aF-goU"/>
+                            <constraint firstItem="SQQ-Wo-x1c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="nNN-yf-2jF"/>
+                            <constraint firstItem="8sV-e9-j9J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nnr-A0-5LW"/>
+                            <constraint firstItem="0Jr-Mn-mec" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="16" id="qnf-A4-2h5"/>
+                            <constraint firstAttribute="trailing" secondItem="8sV-e9-j9J" secondAttribute="trailing" id="usd-A6-KR1"/>
+                            <constraint firstItem="S5z-mD-Toy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wi7-eB-fxi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lwH-Iw-Q1F" secondAttribute="trailing" constant="20" id="wza-6n-e5Q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tp5-ml-Nmh" secondAttribute="trailing" constant="20" id="ysO-PG-USL"/>
+                            <constraint firstItem="lwH-Iw-Q1F" firstAttribute="top" secondItem="xaY-fb-3he" secondAttribute="bottom" constant="38" id="zAx-6z-y9P"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -21,4 +214,10 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="Facebook" width="18" height="39"/>
+        <image name="Layer 4" width="39" height="39"/>
+        <image name="bg" width="756" height="1334"/>
+        <image name="logo" width="186" height="182"/>
+    </resources>
 </document>

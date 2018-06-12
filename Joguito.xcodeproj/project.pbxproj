@@ -12,6 +12,13 @@
 		D967649D20CE2F9C00676AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D967649B20CE2F9C00676AE1 /* Main.storyboard */; };
 		D967649F20CE2F9D00676AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D967649E20CE2F9D00676AE1 /* Assets.xcassets */; };
 		D96764A220CE2F9D00676AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96764A020CE2F9D00676AE1 /* LaunchScreen.storyboard */; };
+		D9FC92F020CF21A800DB0CF6 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9FC92EE20CF21A800DB0CF6 /* Montserrat-Bold.ttf */; };
+		D9FC92F120CF21A800DB0CF6 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9FC92EF20CF21A800DB0CF6 /* Montserrat-Regular.ttf */; };
+		D9FC92F320CF406B00DB0CF6 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9FC92F220CF406A00DB0CF6 /* Montserrat-SemiBold.ttf */; };
+		D9FC92F520CF444400DB0CF6 /* VarelaRound-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9FC92F420CF444400DB0CF6 /* VarelaRound-Regular.ttf */; };
+		D9FC92F820CF47C400DB0CF6 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FC92F720CF47C400DB0CF6 /* RoundButton.swift */; };
+		D9FC930020CF55E600DB0CF6 /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FC92FF20CF55E600DB0CF6 /* RoundTextField.swift */; };
+		D9FC930220CF664E00DB0CF6 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9FC930120CF664E00DB0CF6 /* Montserrat-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		D967649E20CE2F9D00676AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D96764A120CE2F9D00676AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D96764A320CE2F9D00676AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9FC92EE20CF21A800DB0CF6 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "../../../../../../Downloads/Montserrat/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		D9FC92EF20CF21A800DB0CF6 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../../../../../../Downloads/Montserrat/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		D9FC92F220CF406A00DB0CF6 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../../../../../../Downloads/Montserrat/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		D9FC92F420CF444400DB0CF6 /* VarelaRound-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "VarelaRound-Regular.ttf"; path = "../../../../../../Downloads/Varela_Round/VarelaRound-Regular.ttf"; sourceTree = "<group>"; };
+		D9FC92F720CF47C400DB0CF6 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		D9FC92FF20CF55E600DB0CF6 /* RoundTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		D9FC930120CF664E00DB0CF6 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.ttf"; path = "../../../../../../Downloads/Montserrat/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,8 @@
 		D967649620CE2F9C00676AE1 /* Joguito */ = {
 			isa = PBXGroup;
 			children = (
+				D9FC92F620CF479000DB0CF6 /* UI */,
+				D9FC92ED20CF217500DB0CF6 /* Fonts */,
 				D967649720CE2F9C00676AE1 /* AppDelegate.swift */,
 				D967649920CE2F9C00676AE1 /* ViewController.swift */,
 				D967649B20CE2F9C00676AE1 /* Main.storyboard */,
@@ -62,6 +78,27 @@
 				D96764A320CE2F9D00676AE1 /* Info.plist */,
 			);
 			path = Joguito;
+			sourceTree = "<group>";
+		};
+		D9FC92ED20CF217500DB0CF6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D9FC930120CF664E00DB0CF6 /* Montserrat-Medium.ttf */,
+				D9FC92F420CF444400DB0CF6 /* VarelaRound-Regular.ttf */,
+				D9FC92F220CF406A00DB0CF6 /* Montserrat-SemiBold.ttf */,
+				D9FC92EE20CF21A800DB0CF6 /* Montserrat-Bold.ttf */,
+				D9FC92EF20CF21A800DB0CF6 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D9FC92F620CF479000DB0CF6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D9FC92F720CF47C400DB0CF6 /* RoundButton.swift */,
+				D9FC92FF20CF55E600DB0CF6 /* RoundTextField.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +159,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9FC92F320CF406B00DB0CF6 /* Montserrat-SemiBold.ttf in Resources */,
+				D9FC92F020CF21A800DB0CF6 /* Montserrat-Bold.ttf in Resources */,
 				D96764A220CE2F9D00676AE1 /* LaunchScreen.storyboard in Resources */,
 				D967649F20CE2F9D00676AE1 /* Assets.xcassets in Resources */,
+				D9FC92F520CF444400DB0CF6 /* VarelaRound-Regular.ttf in Resources */,
+				D9FC92F120CF21A800DB0CF6 /* Montserrat-Regular.ttf in Resources */,
+				D9FC930220CF664E00DB0CF6 /* Montserrat-Medium.ttf in Resources */,
 				D967649D20CE2F9C00676AE1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +177,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9FC930020CF55E600DB0CF6 /* RoundTextField.swift in Sources */,
+				D9FC92F820CF47C400DB0CF6 /* RoundButton.swift in Sources */,
 				D967649A20CE2F9C00676AE1 /* ViewController.swift in Sources */,
 				D967649820CE2F9C00676AE1 /* AppDelegate.swift in Sources */,
 			);
@@ -281,7 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JMKHYYN4MR;
+				DEVELOPMENT_TEAM = Q278UMZH6M;
 				INFOPLIST_FILE = Joguito/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,7 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JMKHYYN4MR;
+				DEVELOPMENT_TEAM = Q278UMZH6M;
 				INFOPLIST_FILE = Joguito/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

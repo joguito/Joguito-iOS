@@ -1,10 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
@@ -13,7 +25,42 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="mIx-zw-gxg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="oYr-uf-voM">
+                                <rect key="frame" x="124" y="273" width="126" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="K8P-TH-uXl"/>
+                                    <constraint firstAttribute="width" constant="126" id="jsf-YJ-mb5"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JOGUITO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jJa-d5-k0Z">
+                                <rect key="frame" x="135" y="393" width="104" height="27"/>
+                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All rights are reserved. Joguito © 2018" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X2b-4f-MYU">
+                                <rect key="frame" x="94" y="650" width="187" height="13"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="10"/>
+                                <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="jJa-d5-k0Z" firstAttribute="top" secondItem="oYr-uf-voM" secondAttribute="bottom" id="1q1-EF-J3h"/>
+                            <constraint firstItem="X2b-4f-MYU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="CVg-cB-uEZ"/>
+                            <constraint firstItem="oYr-uf-voM" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="EhN-ex-qL1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="X2b-4f-MYU" secondAttribute="bottom" constant="4" id="HI9-2Q-RQK"/>
+                            <constraint firstAttribute="bottom" secondItem="mIx-zw-gxg" secondAttribute="bottom" id="PHr-d2-rPb"/>
+                            <constraint firstAttribute="trailing" secondItem="mIx-zw-gxg" secondAttribute="trailing" id="abw-1Y-aOu"/>
+                            <constraint firstItem="mIx-zw-gxg" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="idU-8c-WYF"/>
+                            <constraint firstItem="mIx-zw-gxg" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="tE0-wH-ydA"/>
+                            <constraint firstItem="oYr-uf-voM" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="vCS-8u-rpp"/>
+                            <constraint firstItem="jJa-d5-k0Z" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="znM-as-AFE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -22,4 +69,8 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg" width="756" height="1334"/>
+        <image name="logo" width="186" height="182"/>
+    </resources>
 </document>
