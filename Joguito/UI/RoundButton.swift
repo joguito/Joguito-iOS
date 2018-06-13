@@ -29,20 +29,8 @@ import UIKit
     @IBInspectable var useGradient: Bool = false {
         didSet {
             if useGradient == true {
-                let gradientLayer:CAGradientLayer = CAGradientLayer()
-                //e2e207 : 226 226 7
-                //let startColor = UIColor(red: 226, green: 226, blue: 7, alpha: 1)
-                
-                //ffb600 : 225 182 0
-                let endColor = UIColor(red: 225, green: 182, blue: 0, alpha: 1)
-                gradientLayer.frame.size = self.frame.size
-                gradientLayer.colors =
-                    [UIColor.white.withAlphaComponent(0.1).cgColor, endColor.withAlphaComponent(1).cgColor]
-                //Use diffrent colors
-                gradientLayer.startPoint = CGPoint(x: 0.0, y: 1.0)
-                gradientLayer.endPoint = CGPoint(x: 1.0, y: 1.0)
-                gradientLayer.cornerRadius = radius
-                self.layer.addSublayer(gradientLayer)
+                self.setGradientLayer(startColor: UIColor(red: 226/255, green: 226/255, blue: 7/255, alpha: 1.0), endColor: UIColor(red: 225/255, green: 182/255, blue: 0/255, alpha: 1.0))
+                layer.masksToBounds = true
             } else {
                 self.backgroundColor = bgColor
             }

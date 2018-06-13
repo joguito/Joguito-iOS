@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D956733720D0379D008A137D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D956733620D0379D008A137D /* Extensions.swift */; };
+		D956733920D03FEF008A137D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D956733820D03FEF008A137D /* GradientView.swift */; };
+		D956733B20D04321008A137D /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D956733A20D04321008A137D /* RoundImageView.swift */; };
+		D956733D20D06AD9008A137D /* StepIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D956733C20D06AD9008A137D /* StepIndicatorView.swift */; };
+		D956734020D06B4E008A137D /* AnnularLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D956733F20D06B4E008A137D /* AnnularLayer.swift */; };
+		D956734220D06B72008A137D /* LineLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D956734120D06B72008A137D /* LineLayer.swift */; };
+		D956734420D08FB7008A137D /* RoundSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D956734320D08FB7008A137D /* RoundSegmentedControl.swift */; };
 		D967649820CE2F9C00676AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967649720CE2F9C00676AE1 /* AppDelegate.swift */; };
 		D967649A20CE2F9C00676AE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967649920CE2F9C00676AE1 /* ViewController.swift */; };
 		D967649D20CE2F9C00676AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D967649B20CE2F9C00676AE1 /* Main.storyboard */; };
@@ -22,6 +29,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D956733620D0379D008A137D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D956733820D03FEF008A137D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		D956733A20D04321008A137D /* RoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		D956733C20D06AD9008A137D /* StepIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepIndicatorView.swift; sourceTree = "<group>"; };
+		D956733F20D06B4E008A137D /* AnnularLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnularLayer.swift; sourceTree = "<group>"; };
+		D956734120D06B72008A137D /* LineLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineLayer.swift; sourceTree = "<group>"; };
+		D956734320D08FB7008A137D /* RoundSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundSegmentedControl.swift; sourceTree = "<group>"; };
 		D967649420CE2F9C00676AE1 /* Joguito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Joguito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D967649720CE2F9C00676AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D967649920CE2F9C00676AE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +63,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D956733E20D06B07008A137D /* StepIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				D956733C20D06AD9008A137D /* StepIndicatorView.swift */,
+				D956733F20D06B4E008A137D /* AnnularLayer.swift */,
+				D956734120D06B72008A137D /* LineLayer.swift */,
+			);
+			path = StepIndicatorView;
+			sourceTree = "<group>";
+		};
 		D967648B20CE2F9C00676AE1 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +100,7 @@
 				D967649E20CE2F9D00676AE1 /* Assets.xcassets */,
 				D96764A020CE2F9D00676AE1 /* LaunchScreen.storyboard */,
 				D96764A320CE2F9D00676AE1 /* Info.plist */,
+				D956733620D0379D008A137D /* Extensions.swift */,
 			);
 			path = Joguito;
 			sourceTree = "<group>";
@@ -95,8 +120,12 @@
 		D9FC92F620CF479000DB0CF6 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				D956733E20D06B07008A137D /* StepIndicatorView */,
 				D9FC92F720CF47C400DB0CF6 /* RoundButton.swift */,
 				D9FC92FF20CF55E600DB0CF6 /* RoundTextField.swift */,
+				D956733820D03FEF008A137D /* GradientView.swift */,
+				D956733A20D04321008A137D /* RoundImageView.swift */,
+				D956734320D08FB7008A137D /* RoundSegmentedControl.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -177,9 +206,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D956733720D0379D008A137D /* Extensions.swift in Sources */,
 				D9FC930020CF55E600DB0CF6 /* RoundTextField.swift in Sources */,
+				D956733920D03FEF008A137D /* GradientView.swift in Sources */,
 				D9FC92F820CF47C400DB0CF6 /* RoundButton.swift in Sources */,
+				D956734420D08FB7008A137D /* RoundSegmentedControl.swift in Sources */,
+				D956733B20D04321008A137D /* RoundImageView.swift in Sources */,
+				D956734220D06B72008A137D /* LineLayer.swift in Sources */,
 				D967649A20CE2F9C00676AE1 /* ViewController.swift in Sources */,
+				D956734020D06B4E008A137D /* AnnularLayer.swift in Sources */,
+				D956733D20D06AD9008A137D /* StepIndicatorView.swift in Sources */,
 				D967649820CE2F9C00676AE1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
