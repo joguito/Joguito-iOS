@@ -14,7 +14,7 @@ class RoundSegmentedControl: UIControl {
 
     var thumbView = UIView()
 
-    var selectedIndex: Int = 0 {
+    @IBInspectable var selectedIndex: Int = 0 {
         didSet {
             displaySelectedIndex()
         }
@@ -40,6 +40,10 @@ class RoundSegmentedControl: UIControl {
     @IBInspectable var thumbTitleColor: UIColor = UIColor.black
     
     @IBInspectable var thumbTitleFontSize: CGFloat = 17.0
+    
+    @IBInspectable var separatorWidth: CGFloat = 1.0
+    
+    @IBInspectable var separatorColor: UIColor = UIColor.white
     
     @IBInspectable var thumbTitleFont: String = ""
 
@@ -132,6 +136,8 @@ class RoundSegmentedControl: UIControl {
                 label.textColor = thumbSelectedTitleColor
             } else {
                 label.textColor = thumbTitleColor
+                label.layer.borderWidth = separatorWidth
+                label.layer.borderColor = separatorColor.cgColor
             }
             label.font = label.font.withSize(thumbTitleFontSize)
             if (thumbTitleFont != "") {
