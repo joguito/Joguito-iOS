@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D924609F20D203F10054CF34 /* CreateProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D924609E20D203F10054CF34 /* CreateProfileVC.swift */; };
+		D92460A220D20F860054CF34 /* SelectPositionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92460A120D20F860054CF34 /* SelectPositionVC.swift */; };
+		D92460A420D2101A0054CF34 /* DefineSkillsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92460A320D2101A0054CF34 /* DefineSkillsVC.swift */; };
+		D92460A620D2107F0054CF34 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92460A520D2107F0054CF34 /* Palette.swift */; };
 		D956733720D0379D008A137D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D956733620D0379D008A137D /* Extensions.swift */; };
 		D956733920D03FEF008A137D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D956733820D03FEF008A137D /* GradientView.swift */; };
 		D956733B20D04321008A137D /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D956733A20D04321008A137D /* RoundImageView.swift */; };
@@ -15,7 +19,7 @@
 		D956734220D06B72008A137D /* LineLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D956734120D06B72008A137D /* LineLayer.swift */; };
 		D956734420D08FB7008A137D /* RoundSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D956734320D08FB7008A137D /* RoundSegmentedControl.swift */; };
 		D967649820CE2F9C00676AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967649720CE2F9C00676AE1 /* AppDelegate.swift */; };
-		D967649A20CE2F9C00676AE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967649920CE2F9C00676AE1 /* ViewController.swift */; };
+		D967649A20CE2F9C00676AE1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967649920CE2F9C00676AE1 /* HomeVC.swift */; };
 		D967649D20CE2F9C00676AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D967649B20CE2F9C00676AE1 /* Main.storyboard */; };
 		D967649F20CE2F9D00676AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D967649E20CE2F9D00676AE1 /* Assets.xcassets */; };
 		D96764A220CE2F9D00676AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96764A020CE2F9D00676AE1 /* LaunchScreen.storyboard */; };
@@ -30,6 +34,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D924609E20D203F10054CF34 /* CreateProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileVC.swift; sourceTree = "<group>"; };
+		D92460A120D20F860054CF34 /* SelectPositionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPositionVC.swift; sourceTree = "<group>"; };
+		D92460A320D2101A0054CF34 /* DefineSkillsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefineSkillsVC.swift; sourceTree = "<group>"; };
+		D92460A520D2107F0054CF34 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
 		D956733620D0379D008A137D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D956733820D03FEF008A137D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		D956733A20D04321008A137D /* RoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
@@ -39,7 +47,7 @@
 		D956734320D08FB7008A137D /* RoundSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundSegmentedControl.swift; sourceTree = "<group>"; };
 		D967649420CE2F9C00676AE1 /* Joguito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Joguito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D967649720CE2F9C00676AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D967649920CE2F9C00676AE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D967649920CE2F9C00676AE1 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		D967649C20CE2F9C00676AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D967649E20CE2F9D00676AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D96764A120CE2F9D00676AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,6 +73,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D92460A020D20CE90054CF34 /* Login & Signup */ = {
+			isa = PBXGroup;
+			children = (
+				D967649920CE2F9C00676AE1 /* HomeVC.swift */,
+				D924609E20D203F10054CF34 /* CreateProfileVC.swift */,
+				D92460A120D20F860054CF34 /* SelectPositionVC.swift */,
+				D92460A320D2101A0054CF34 /* DefineSkillsVC.swift */,
+				D967649B20CE2F9C00676AE1 /* Main.storyboard */,
+			);
+			path = "Login & Signup";
+			sourceTree = "<group>";
+		};
 		D956733E20D06B07008A137D /* StepIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +117,7 @@
 				D9FC92F620CF479000DB0CF6 /* UI */,
 				D9FC92ED20CF217500DB0CF6 /* Fonts */,
 				D967649720CE2F9C00676AE1 /* AppDelegate.swift */,
-				D967649920CE2F9C00676AE1 /* ViewController.swift */,
-				D967649B20CE2F9C00676AE1 /* Main.storyboard */,
+				D92460A020D20CE90054CF34 /* Login & Signup */,
 				D967649E20CE2F9D00676AE1 /* Assets.xcassets */,
 				D96764A020CE2F9D00676AE1 /* LaunchScreen.storyboard */,
 				D96764A320CE2F9D00676AE1 /* Info.plist */,
@@ -129,6 +148,7 @@
 				D956733A20D04321008A137D /* RoundImageView.swift */,
 				D956734320D08FB7008A137D /* RoundSegmentedControl.swift */,
 				D9B3178120D1AF65008D527D /* GradientSlider.swift */,
+				D92460A520D2107F0054CF34 /* Palette.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -212,13 +232,17 @@
 				D956733720D0379D008A137D /* Extensions.swift in Sources */,
 				D9FC930020CF55E600DB0CF6 /* RoundTextField.swift in Sources */,
 				D956733920D03FEF008A137D /* GradientView.swift in Sources */,
+				D92460A620D2107F0054CF34 /* Palette.swift in Sources */,
 				D9FC92F820CF47C400DB0CF6 /* RoundButton.swift in Sources */,
 				D9B3178220D1AF65008D527D /* GradientSlider.swift in Sources */,
 				D956734420D08FB7008A137D /* RoundSegmentedControl.swift in Sources */,
+				D92460A420D2101A0054CF34 /* DefineSkillsVC.swift in Sources */,
 				D956733B20D04321008A137D /* RoundImageView.swift in Sources */,
+				D92460A220D20F860054CF34 /* SelectPositionVC.swift in Sources */,
 				D956734220D06B72008A137D /* LineLayer.swift in Sources */,
-				D967649A20CE2F9C00676AE1 /* ViewController.swift in Sources */,
+				D967649A20CE2F9C00676AE1 /* HomeVC.swift in Sources */,
 				D956734020D06B4E008A137D /* AnnularLayer.swift in Sources */,
+				D924609F20D203F10054CF34 /* CreateProfileVC.swift in Sources */,
 				D956733D20D06AD9008A137D /* StepIndicatorView.swift in Sources */,
 				D967649820CE2F9C00676AE1 /* AppDelegate.swift in Sources */,
 			);

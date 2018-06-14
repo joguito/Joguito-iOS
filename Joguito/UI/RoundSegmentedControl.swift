@@ -151,6 +151,13 @@ class RoundSegmentedControl: UIControl {
     fileprivate func displaySelectedIndex() {
         let label = labels[selectedIndex]
         self.thumbView.frame = label.frame
+        for index in 0...labels.count - 1 {
+            if index != selectedIndex {
+                labels[index].textColor = thumbTitleColor
+            } else{
+                labels[index].textColor = thumbSelectedTitleColor
+            }
+        }
     }
 
 }
