@@ -19,6 +19,7 @@
 		D967649D20CE2F9C00676AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D967649B20CE2F9C00676AE1 /* Main.storyboard */; };
 		D967649F20CE2F9D00676AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D967649E20CE2F9D00676AE1 /* Assets.xcassets */; };
 		D96764A220CE2F9D00676AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96764A020CE2F9D00676AE1 /* LaunchScreen.storyboard */; };
+		D9B3178220D1AF65008D527D /* GradientSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B3178120D1AF65008D527D /* GradientSlider.swift */; };
 		D9FC92F020CF21A800DB0CF6 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9FC92EE20CF21A800DB0CF6 /* Montserrat-Bold.ttf */; };
 		D9FC92F120CF21A800DB0CF6 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9FC92EF20CF21A800DB0CF6 /* Montserrat-Regular.ttf */; };
 		D9FC92F320CF406B00DB0CF6 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9FC92F220CF406A00DB0CF6 /* Montserrat-SemiBold.ttf */; };
@@ -43,6 +44,7 @@
 		D967649E20CE2F9D00676AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D96764A120CE2F9D00676AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D96764A320CE2F9D00676AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B3178120D1AF65008D527D /* GradientSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientSlider.swift; sourceTree = "<group>"; };
 		D9FC92EE20CF21A800DB0CF6 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "../../../../../../Downloads/Montserrat/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		D9FC92EF20CF21A800DB0CF6 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../../../../../../Downloads/Montserrat/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		D9FC92F220CF406A00DB0CF6 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../../../../../../Downloads/Montserrat/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				D956733820D03FEF008A137D /* GradientView.swift */,
 				D956733A20D04321008A137D /* RoundImageView.swift */,
 				D956734320D08FB7008A137D /* RoundSegmentedControl.swift */,
+				D9B3178120D1AF65008D527D /* GradientSlider.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				D9FC930020CF55E600DB0CF6 /* RoundTextField.swift in Sources */,
 				D956733920D03FEF008A137D /* GradientView.swift in Sources */,
 				D9FC92F820CF47C400DB0CF6 /* RoundButton.swift in Sources */,
+				D9B3178220D1AF65008D527D /* GradientSlider.swift in Sources */,
 				D956734420D08FB7008A137D /* RoundSegmentedControl.swift in Sources */,
 				D956733B20D04321008A137D /* RoundImageView.swift in Sources */,
 				D956734220D06B72008A137D /* LineLayer.swift in Sources */,

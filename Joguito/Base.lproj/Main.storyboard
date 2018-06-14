@@ -34,162 +34,187 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="8sV-e9-j9J">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="SQQ-Wo-x1c">
-                                <rect key="frame" x="137.66666666666666" y="66" width="100" height="100"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="never" translatesAutoresizingMaskIntoConstraints="NO" id="FOs-q7-nm9">
+                                <rect key="frame" x="0.0" y="44" width="375" height="812"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h6h-qF-2b5">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="728"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="SQQ-Wo-x1c">
+                                                <rect key="frame" x="138" y="20" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="9mB-TU-CDq"/>
+                                                    <constraint firstAttribute="width" constant="100" id="Abc-ME-Ghi"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JOGUITO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5z-mD-Toy">
+                                                <rect key="frame" x="164" y="120" width="61" height="16"/>
+                                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="13"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign in" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="xaY-fb-3he">
+                                                <rect key="frame" x="146" y="194" width="84" height="32"/>
+                                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="26"/>
+                                                <color key="textColor" red="0.90588235294117647" green="0.92549019607843142" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your mobile no." textAlignment="center" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="lwH-Iw-Q1F" customClass="RoundTextField" customModule="Joguito" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="264" width="335" height="48"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="uix-cr-yN8"/>
+                                                </constraints>
+                                                <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" textContentType="tel"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="edgeRadius">
+                                                        <real key="value" value="24"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="backgroundOppacity">
+                                                        <real key="value" value="0.10000000000000001"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
+                                                        <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.50347816779999999" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                        <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.50347816780821919" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your email ID" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tp5-ml-Nmh" customClass="RoundTextField" customModule="Joguito" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="363" width="335" height="48"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="Bin-SJ-zIx"/>
+                                                </constraints>
+                                                <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" textContentType="email"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="backgroundOppacity">
+                                                        <real key="value" value="0.10000000000000001"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="edgeRadius">
+                                                        <real key="value" value="24"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
+                                                        <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.50347816779999999" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                        <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.50347816779999999" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="Q0h-AT-jJV">
+                                                <rect key="frame" x="168" y="322" width="40" height="31"/>
+                                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="26"/>
+                                                <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connect with" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="0tY-8Z-f4W">
+                                                <rect key="frame" x="125" y="439" width="126" height="24"/>
+                                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="20"/>
+                                                <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YJ6-KR-7Ip" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="481" width="158" height="48"/>
+                                                <color key="backgroundColor" red="0.1960784314" green="0.27058823529999998" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="48" id="liv-da-IOZ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="18"/>
+                                                <inset key="contentEdgeInsets" minX="16" minY="8" maxX="16" maxY="8"/>
+                                                <state key="normal" title="Facebook" image="Facebook">
+                                                    <color key="titleColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Jr-Mn-mec" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
+                                                <rect key="frame" x="198" y="481" width="157" height="48"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="48" id="lNL-2U-9dO"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="18"/>
+                                                <inset key="contentEdgeInsets" minX="8" minY="8" maxX="24" maxY="8"/>
+                                                <state key="normal" title="Google" image="Layer 4">
+                                                    <color key="titleColor" red="0.47058823529411764" green="0.45490196078431372" blue="0.45490196078431372" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMn-Yp-x34" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="660" width="335" height="48"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="09P-OE-smH"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="20"/>
+                                                <state key="normal" title="I am already a user">
+                                                    <color key="titleColor" red="0.054901960784313725" green="0.10980392156862745" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="As7-0l-Xri" kind="show" id="cT4-Gw-DOV"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="S5z-mD-Toy" firstAttribute="centerX" secondItem="h6h-qF-2b5" secondAttribute="centerX" constant="6.5" id="1gh-QG-cnK"/>
+                                            <constraint firstAttribute="trailing" secondItem="lwH-Iw-Q1F" secondAttribute="trailing" constant="20" id="1um-AC-uuU"/>
+                                            <constraint firstItem="YJ6-KR-7Ip" firstAttribute="leading" secondItem="h6h-qF-2b5" secondAttribute="leading" constant="20" id="3iy-eD-HXn"/>
+                                            <constraint firstItem="Q0h-AT-jJV" firstAttribute="top" secondItem="lwH-Iw-Q1F" secondAttribute="bottom" constant="10" id="67R-UB-AJC"/>
+                                            <constraint firstItem="Tp5-ml-Nmh" firstAttribute="leading" secondItem="lwH-Iw-Q1F" secondAttribute="leading" id="7O5-4M-PUR"/>
+                                            <constraint firstItem="xaY-fb-3he" firstAttribute="centerX" secondItem="h6h-qF-2b5" secondAttribute="centerX" id="8Gn-aE-kay"/>
+                                            <constraint firstItem="Tp5-ml-Nmh" firstAttribute="top" secondItem="Q0h-AT-jJV" secondAttribute="bottom" constant="10" id="8oh-nA-Qby"/>
+                                            <constraint firstAttribute="bottom" secondItem="SMn-Yp-x34" secondAttribute="bottom" constant="20" id="BPB-Fv-hT2"/>
+                                            <constraint firstItem="lwH-Iw-Q1F" firstAttribute="leading" secondItem="h6h-qF-2b5" secondAttribute="leading" constant="20" id="F3e-TY-1gr"/>
+                                            <constraint firstItem="SMn-Yp-x34" firstAttribute="leading" secondItem="h6h-qF-2b5" secondAttribute="leading" constant="20" id="HHn-ks-nKb"/>
+                                            <constraint firstItem="S5z-mD-Toy" firstAttribute="top" secondItem="SQQ-Wo-x1c" secondAttribute="bottom" id="IOY-tU-pwk"/>
+                                            <constraint firstItem="0tY-8Z-f4W" firstAttribute="centerX" secondItem="h6h-qF-2b5" secondAttribute="centerX" id="IWK-ss-70e"/>
+                                            <constraint firstItem="SMn-Yp-x34" firstAttribute="top" secondItem="YJ6-KR-7Ip" secondAttribute="bottom" constant="131" id="K4T-wN-CTQ"/>
+                                            <constraint firstAttribute="centerX" secondItem="YJ6-KR-7Ip" secondAttribute="trailing" constant="10" id="R2y-yK-pvN"/>
+                                            <constraint firstItem="lwH-Iw-Q1F" firstAttribute="top" secondItem="xaY-fb-3he" secondAttribute="bottom" constant="38" id="V8p-kx-rEm"/>
+                                            <constraint firstAttribute="trailing" secondItem="0Jr-Mn-mec" secondAttribute="trailing" constant="20" id="bjD-Fe-0DM"/>
+                                            <constraint firstItem="0Jr-Mn-mec" firstAttribute="leading" secondItem="h6h-qF-2b5" secondAttribute="centerX" constant="10" id="gS6-Zt-6Kf"/>
+                                            <constraint firstItem="SQQ-Wo-x1c" firstAttribute="top" secondItem="h6h-qF-2b5" secondAttribute="top" constant="20" id="hbt-fI-Hdy"/>
+                                            <constraint firstItem="0Jr-Mn-mec" firstAttribute="top" secondItem="0tY-8Z-f4W" secondAttribute="bottom" constant="18" id="jCi-qu-qag"/>
+                                            <constraint firstItem="xaY-fb-3he" firstAttribute="top" secondItem="S5z-mD-Toy" secondAttribute="bottom" constant="58" id="jMX-9c-3Ma"/>
+                                            <constraint firstItem="Tp5-ml-Nmh" firstAttribute="trailing" secondItem="lwH-Iw-Q1F" secondAttribute="trailing" id="oDG-PY-KXm"/>
+                                            <constraint firstAttribute="trailing" secondItem="SMn-Yp-x34" secondAttribute="trailing" constant="20" id="oUa-Wh-lE2"/>
+                                            <constraint firstItem="YJ6-KR-7Ip" firstAttribute="top" secondItem="0tY-8Z-f4W" secondAttribute="bottom" constant="18" id="xGJ-rq-AH0"/>
+                                            <constraint firstItem="SQQ-Wo-x1c" firstAttribute="centerX" secondItem="h6h-qF-2b5" secondAttribute="centerX" id="yVi-0R-YYH"/>
+                                            <constraint firstItem="Q0h-AT-jJV" firstAttribute="centerX" secondItem="h6h-qF-2b5" secondAttribute="centerX" id="zdv-nL-eZK"/>
+                                            <constraint firstItem="0tY-8Z-f4W" firstAttribute="top" secondItem="Tp5-ml-Nmh" secondAttribute="bottom" constant="28" id="zrb-CM-FdW"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="9mB-TU-CDq"/>
-                                    <constraint firstAttribute="width" constant="100" id="Abc-ME-Ghi"/>
+                                    <constraint firstAttribute="trailing" secondItem="h6h-qF-2b5" secondAttribute="trailing" id="3KV-xz-XZf"/>
+                                    <constraint firstAttribute="bottom" secondItem="h6h-qF-2b5" secondAttribute="bottom" id="CFF-hL-5iN"/>
+                                    <constraint firstItem="h6h-qF-2b5" firstAttribute="top" secondItem="FOs-q7-nm9" secondAttribute="top" id="LkZ-nj-4vc"/>
+                                    <constraint firstItem="h6h-qF-2b5" firstAttribute="leading" secondItem="FOs-q7-nm9" secondAttribute="leading" id="Xoc-qQ-ahK"/>
+                                    <constraint firstItem="h6h-qF-2b5" firstAttribute="width" secondItem="FOs-q7-nm9" secondAttribute="width" id="yFF-ZD-mG4"/>
                                 </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JOGUITO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5z-mD-Toy">
-                                <rect key="frame" x="157" y="166" width="61" height="16"/>
-                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="13"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xaY-fb-3he">
-                                <rect key="frame" x="145.66666666666666" y="240" width="84" height="31.666666666666686"/>
-                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="26"/>
-                                <color key="textColor" red="0.90588235294117647" green="0.92549019607843142" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your mobile no." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lwH-Iw-Q1F" customClass="RoundTextField" customModule="Joguito" customModuleProvider="target">
-                                <rect key="frame" x="20" y="309.66666666666669" width="335" height="50"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="uix-cr-yN8"/>
-                                </constraints>
-                                <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" textContentType="tel"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="edgeRadius">
-                                        <real key="value" value="24"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="backgroundOppacity">
-                                        <real key="value" value="0.10000000000000001"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
-                                        <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.50347816779999999" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
-                                        <real key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                        <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.50347816780821919" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your email ID" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tp5-ml-Nmh" customClass="RoundTextField" customModule="Joguito" customModuleProvider="target">
-                                <rect key="frame" x="20" y="410.66666666666669" width="335" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="Bin-SJ-zIx"/>
-                                </constraints>
-                                <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" textContentType="email"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="backgroundOppacity">
-                                        <real key="value" value="0.10000000000000001"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="edgeRadius">
-                                        <real key="value" value="24"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
-                                        <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.50347816779999999" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
-                                        <real key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                        <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.50347816779999999" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q0h-AT-jJV">
-                                <rect key="frame" x="167.66666666666666" y="369.66666666666669" width="40" height="31"/>
-                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="26"/>
-                                <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connect with" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0tY-8Z-f4W">
-                                <rect key="frame" x="124.66666666666669" y="488.66666666666669" width="126" height="24.333333333333314"/>
-                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="20"/>
-                                <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YJ6-KR-7Ip" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
-                                <rect key="frame" x="20" y="531" width="159.66666666666666" height="48"/>
-                                <color key="backgroundColor" red="0.1960784314" green="0.27058823529999998" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="liv-da-IOZ"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="18"/>
-                                <inset key="contentEdgeInsets" minX="16" minY="8" maxX="16" maxY="8"/>
-                                <state key="normal" title="Facebook" image="Facebook">
-                                    <color key="titleColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Jr-Mn-mec" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
-                                <rect key="frame" x="203.66666666666663" y="531" width="151.33333333333337" height="48"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="lNL-2U-9dO"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="18"/>
-                                <inset key="contentEdgeInsets" minX="8" minY="8" maxX="24" maxY="8"/>
-                                <state key="normal" title="Google" image="Layer 4">
-                                    <color key="titleColor" red="0.47058823529411764" green="0.45490196078431372" blue="0.45490196078431372" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMn-Yp-x34" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
-                                <rect key="frame" x="20" y="710" width="335" height="48"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="09P-OE-smH"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="20"/>
-                                <state key="normal" title="I am already a user">
-                                    <color key="titleColor" red="0.054901960784313725" green="0.10980392156862745" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="As7-0l-Xri" kind="show" id="cT4-Gw-DOV"/>
-                                </connections>
-                            </button>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="xaY-fb-3he" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Yr-iY-j72"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Jr-Mn-mec" secondAttribute="trailing" constant="20" id="1QU-96-Yil"/>
-                            <constraint firstItem="Q0h-AT-jJV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1XK-v6-TDg"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SMn-Yp-x34" secondAttribute="bottom" constant="20" id="4LG-h7-zgi"/>
-                            <constraint firstItem="0Jr-Mn-mec" firstAttribute="top" secondItem="0tY-8Z-f4W" secondAttribute="bottom" constant="18" id="9Pl-bU-I34"/>
-                            <constraint firstItem="Q0h-AT-jJV" firstAttribute="top" secondItem="lwH-Iw-Q1F" secondAttribute="bottom" constant="10" id="ARZ-n4-VCN"/>
-                            <constraint firstItem="lwH-Iw-Q1F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BDc-5d-bvf"/>
-                            <constraint firstItem="SMn-Yp-x34" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="E8g-Ah-yLG"/>
-                            <constraint firstItem="Tp5-ml-Nmh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="F8o-eL-Vdf"/>
+                            <constraint firstItem="FOs-q7-nm9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="K5i-Ks-P8k"/>
                             <constraint firstItem="8sV-e9-j9J" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="O99-3Q-XkZ"/>
-                            <constraint firstItem="0tY-8Z-f4W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P6j-pv-Eqs"/>
-                            <constraint firstItem="YJ6-KR-7Ip" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="UZL-Lr-XzP"/>
-                            <constraint firstItem="xaY-fb-3he" firstAttribute="top" secondItem="S5z-mD-Toy" secondAttribute="bottom" constant="58" id="V0g-h6-qMh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SMn-Yp-x34" secondAttribute="trailing" constant="20" id="Vdc-Nx-txb"/>
                             <constraint firstAttribute="bottom" secondItem="8sV-e9-j9J" secondAttribute="bottom" id="Wee-1D-urb"/>
-                            <constraint firstItem="SQQ-Wo-x1c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X0t-Ib-eha"/>
-                            <constraint firstItem="YJ6-KR-7Ip" firstAttribute="top" secondItem="0tY-8Z-f4W" secondAttribute="bottom" constant="18" id="cY7-ML-DH0"/>
-                            <constraint firstItem="0tY-8Z-f4W" firstAttribute="top" secondItem="Tp5-ml-Nmh" secondAttribute="bottom" constant="28" id="dKY-k4-ISP"/>
-                            <constraint firstAttribute="centerX" secondItem="YJ6-KR-7Ip" secondAttribute="trailing" constant="8" id="gal-Ez-dER"/>
-                            <constraint firstItem="S5z-mD-Toy" firstAttribute="top" secondItem="SQQ-Wo-x1c" secondAttribute="bottom" id="hcC-8r-MaZ"/>
-                            <constraint firstItem="Tp5-ml-Nmh" firstAttribute="top" secondItem="Q0h-AT-jJV" secondAttribute="bottom" constant="10" id="lzh-aF-goU"/>
-                            <constraint firstItem="SQQ-Wo-x1c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="nNN-yf-2jF"/>
+                            <constraint firstItem="FOs-q7-nm9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="a5r-Hv-Hmw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FOs-q7-nm9" secondAttribute="trailing" id="aK8-YG-uhX"/>
                             <constraint firstItem="8sV-e9-j9J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nnr-A0-5LW"/>
-                            <constraint firstItem="0Jr-Mn-mec" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="16" id="qnf-A4-2h5"/>
+                            <constraint firstItem="FOs-q7-nm9" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="pCG-aE-tH4"/>
                             <constraint firstAttribute="trailing" secondItem="8sV-e9-j9J" secondAttribute="trailing" id="usd-A6-KR1"/>
-                            <constraint firstItem="S5z-mD-Toy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wi7-eB-fxi"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lwH-Iw-Q1F" secondAttribute="trailing" constant="20" id="wza-6n-e5Q"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tp5-ml-Nmh" secondAttribute="trailing" constant="20" id="ysO-PG-USL"/>
-                            <constraint firstItem="lwH-Iw-Q1F" firstAttribute="top" secondItem="xaY-fb-3he" secondAttribute="bottom" constant="38" id="zAx-6z-y9P"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -199,7 +224,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1262" y="-562"/>
+            <point key="canvasLocation" x="1261.5999999999999" y="-562.3152709359606"/>
         </scene>
         <!--Create Profile 1-->
         <scene sceneID="Er3-Gh-bj5">
@@ -880,6 +905,9 @@
                                                 <real key="value" value="2"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="74h-uB-Bcc" kind="show" id="5hb-xk-vgG"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -948,6 +976,45 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p6a-mx-lNb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3135" y="-562"/>
+        </scene>
+        <!--Create Profile 3-->
+        <scene sceneID="Ggx-Ru-7eY">
+            <objects>
+                <viewController title="Create Profile 3" id="74h-uB-Bcc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RwH-HW-KnW" customClass="GradientView" customModule="Joguito" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="LcI-PW-yb1" customClass="GradientSlider" customModule="Joguito" customModuleProvider="target">
+                                <rect key="frame" x="18" y="54" width="339" height="40"/>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="6Ui-hw-W9R">
+                                <rect key="frame" x="18" y="113" width="339" height="31"/>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Ui-hw-W9R" firstAttribute="top" secondItem="LcI-PW-yb1" secondAttribute="bottom" constant="20" id="ROp-ly-SEY"/>
+                            <constraint firstItem="LcI-PW-yb1" firstAttribute="top" secondItem="RNC-0C-CCr" secondAttribute="top" constant="10" id="TFe-9B-93V"/>
+                            <constraint firstItem="6Ui-hw-W9R" firstAttribute="leading" secondItem="RNC-0C-CCr" secondAttribute="leading" constant="20" id="aJG-CG-CCa"/>
+                            <constraint firstItem="RNC-0C-CCr" firstAttribute="trailing" secondItem="6Ui-hw-W9R" secondAttribute="trailing" constant="20" id="aV0-y5-N2j"/>
+                            <constraint firstItem="LcI-PW-yb1" firstAttribute="leading" secondItem="RNC-0C-CCr" secondAttribute="leading" constant="20" id="q1z-kV-DMZ"/>
+                            <constraint firstItem="RNC-0C-CCr" firstAttribute="trailing" secondItem="LcI-PW-yb1" secondAttribute="trailing" constant="20" id="uYu-1X-cNy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RNC-0C-CCr"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                <color key="value" red="0.047058823530000002" green="0.098039215690000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                <color key="value" red="0.08235294118" green="0.1647058824" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1G8-Mc-63o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4033" y="-562"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="SWX-Qh-fXW">
