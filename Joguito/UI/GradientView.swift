@@ -24,7 +24,7 @@ import UIKit
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        //setup()
+        setup()
     }
     
     override func prepareForInterfaceBuilder() {
