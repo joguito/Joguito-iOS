@@ -8,11 +8,20 @@
 
 import UIKit
 
-@IBDesignable class RoundButton: UIButton {
+@IBDesignable
+class RoundButton: UIButton {
     
-    //@IBInspectable var startColor: UIColor = UIColor.clear
+    @IBInspectable var startColor: UIColor = UIColor.clear {
+        didSet {
+            updateGradient()
+        }
+    }
     
-    //@IBInspectable var endColor: UIColor = UIColor.clear
+    @IBInspectable var endColor: UIColor = UIColor.clear {
+        didSet {
+            updateGradient()
+        }
+    }
     
     @IBInspectable var edgesColor: UIColor = UIColor.clear {
         didSet {
@@ -28,23 +37,37 @@ import UIKit
     
     @IBInspectable var useGradient: Bool = false {
         didSet {
-            if useGradient == true {
-                self.setGradientLayer(startColor: UIColor(red: 226/255, green: 226/255, blue: 7/255, alpha: 1.0), endColor: UIColor(red: 225/255, green: 182/255, blue: 0/255, alpha: 1.0))
-                layer.masksToBounds = true
-            } else {
-                setup()
-            }
+            updateGradient()
         }
     }
     
+//    override func awakeFromNib() {
+//        super.awakeFromNib()
+//        setup()
+//    }
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    override init(frame: CGRect) {
+        super.init(frame: frame)
         setup()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        self.setup()
     }
     
     override func prepareForInterfaceBuilder() {
         setup()
+    }
+    
+    fileprivate func updateGradient() {
+        if self.useGradient != false {
+            self.setGradientLayer(startColor: startColor, endColor: endColor)
+            layer.masksToBounds = true
+            layoutIfNeeded()
+        } else {
+            setup()
+        }
     }
     
     func setup() {
@@ -53,7 +76,6 @@ import UIKit
         self.titleLabel?.adjustsFontSizeToFitWidth = true
         self.titleLabel?.numberOfLines = 1
         self.layer.cornerRadius = self.frame.height / 2
-        //self.titleLabel?.lineBreakMode = NSLineBreakByClipping;
     }
     
 }

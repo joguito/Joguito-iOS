@@ -39,10 +39,10 @@
                                 <rect key="frame" x="0.0" y="44" width="375" height="812"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h6h-qF-2b5">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="726.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="727.66666666666663"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="SQQ-Wo-x1c">
-                                                <rect key="frame" x="138" y="20" width="100" height="100"/>
+                                                <rect key="frame" x="137.66666666666666" y="20" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="100" id="9mB-TU-CDq"/>
                                                     <constraint firstAttribute="width" constant="100" id="Abc-ME-Ghi"/>
@@ -50,19 +50,19 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JOGUITO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5z-mD-Toy">
-                                                <rect key="frame" x="164.33333333333334" y="120" width="61" height="16"/>
+                                                <rect key="frame" x="163.66666666666666" y="120" width="61" height="16"/>
                                                 <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="13"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign in" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="xaY-fb-3he">
-                                                <rect key="frame" x="146.33333333333334" y="194" width="83.666666666666657" height="30.333333333333343"/>
+                                                <rect key="frame" x="146" y="194" width="84" height="31.666666666666657"/>
                                                 <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="26"/>
                                                 <color key="textColor" red="0.90588235294117647" green="0.92549019607843142" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your mobile no." textAlignment="center" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="lwH-Iw-Q1F" customClass="RoundTextField" customModule="Joguito" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="262.33333333333331" width="335" height="48"/>
+                                                <rect key="frame" x="20" y="263.66666666666669" width="335" height="48"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="48" id="uix-cr-yN8"/>
@@ -89,7 +89,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your email ID" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tp5-ml-Nmh" customClass="RoundTextField" customModule="Joguito" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="361.33333333333331" width="335" height="48"/>
+                                                <rect key="frame" x="20" y="362.66666666666669" width="335" height="48"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="48" id="Bin-SJ-zIx"/>
                                                 </constraints>
@@ -115,19 +115,19 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="Q0h-AT-jJV">
-                                                <rect key="frame" x="168.33333333333334" y="320.33333333333331" width="39.666666666666657" height="31"/>
+                                                <rect key="frame" x="167.66666666666666" y="321.66666666666669" width="40" height="31"/>
                                                 <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="26"/>
                                                 <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connect with" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="0tY-8Z-f4W">
-                                                <rect key="frame" x="125.33333333333331" y="437.33333333333331" width="125.66666666666669" height="24"/>
+                                                <rect key="frame" x="124.66666666666669" y="438.66666666666669" width="126" height="24"/>
                                                 <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="20"/>
                                                 <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YJ6-KR-7Ip" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="479.33333333333337" width="158" height="48"/>
+                                                <rect key="frame" x="20" y="480.66666666666663" width="157.66666666666666" height="48"/>
                                                 <color key="backgroundColor" red="0.1960784314" green="0.27058823529999998" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="48" id="liv-da-IOZ"/>
@@ -139,7 +139,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Jr-Mn-mec" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
-                                                <rect key="frame" x="198" y="479.33333333333337" width="157" height="48"/>
+                                                <rect key="frame" x="197.66666666666663" y="480.66666666666663" width="157.33333333333337" height="48"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="48" id="lNL-2U-9dO"/>
@@ -151,7 +151,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMn-Yp-x34" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="658.33333333333337" width="335" height="48"/>
+                                                <rect key="frame" x="20" y="659.66666666666663" width="335" height="48"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="48" id="09P-OE-smH"/>
                                                 </constraints>
@@ -161,6 +161,12 @@
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                                        <color key="value" red="1" green="0.76470588235294112" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                                        <color key="value" red="0.96470588235294119" green="0.92156862745098034" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <segue destination="As7-0l-Xri" kind="show" id="cT4-Gw-DOV"/>
@@ -223,9 +229,6 @@
                     <navigationItem key="navigationItem" title="Home" leftItemsSupplementBackButton="YES" id="WHy-ic-CEt">
                         <barButtonItem key="backBarButtonItem" title="Back" id="X8V-5O-qFj"/>
                     </navigationItem>
-                    <connections>
-                        <outlet property="signInBtn" destination="SMn-Yp-x34" id="Ecv-0H-6Ul"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -234,7 +237,7 @@
         <!--Create Profile 1-->
         <scene sceneID="Er3-Gh-bj5">
             <objects>
-                <viewController title="Create Profile 1" id="As7-0l-Xri" customClass="CreateProfileVC" customModule="Joguito" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Create Profile 1" definesPresentationContext="YES" id="As7-0l-Xri" customClass="CreateProfileVC" customModule="Joguito" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J83-xj-ITc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -242,10 +245,10 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" keyboardDismissMode="onDrag" translatesAutoresizingMaskIntoConstraints="NO" id="JNI-Ge-fle">
                                 <rect key="frame" x="0.0" y="44" width="375" height="1222"/>
                                 <subviews>
-                                    <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XKO-G4-YQ7">
+                                    <view opaque="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="XKO-G4-YQ7">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1153"/>
                                         <subviews>
-                                            <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Li-VZ-02P" customClass="StepIndicatorView" customModule="Joguito" customModuleProvider="target">
+                                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="2Li-VZ-02P" customClass="StepIndicatorView" customModule="Joguito" customModuleProvider="target">
                                                 <rect key="frame" x="20" y="20" width="335" height="30"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -259,23 +262,32 @@
                                                         <integer key="value" value="0"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="circleColor">
-                                                        <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="value" red="0.08235294118" green="0.4941176471" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="circleTintColor">
-                                                        <color key="value" red="0.1960784314" green="0.27058823529999998" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="value" red="0.08235294118" green="0.4941176471" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
-                                                        <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="value" red="0.08235294118" green="0.4941176471" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="lineTintColor">
-                                                        <color key="value" red="0.1960784314" green="0.27058823529999998" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="value" red="0.08235294118" green="0.4941176471" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="displayNumbers" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="displayNumbers" value="NO"/>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="lineMargin">
                                                         <real key="value" value="0.0"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="lineStrokeWidth">
-                                                        <real key="value" value="4"/>
+                                                        <real key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="directionRaw">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="circleRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="circleStrokeWidth">
+                                                        <real key="value" value="5"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
@@ -283,7 +295,7 @@
                                                 <rect key="frame" x="128" y="70" width="120" height="120"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WA3-N2-YaX">
-                                                        <rect key="frame" x="51" y="41.333333333333343" width="18" height="38.666666666666657"/>
+                                                        <rect key="frame" x="51.666666666666657" y="40.666666666666657" width="18" height="39"/>
                                                         <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="32"/>
                                                         <color key="textColor" red="0.08235294118" green="0.1647058824" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -298,7 +310,7 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile Image" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="SvZ-i5-sbj">
-                                                <rect key="frame" x="112.00000000000001" y="210" width="151.33333333333337" height="29"/>
+                                                <rect key="frame" x="111.99999999999999" y="210" width="151.66666666666663" height="29"/>
                                                 <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -363,7 +375,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="da1-FG-h7y" userLabel="Email Label">
-                                                <rect key="frame" x="40.000000000000007" y="469" width="67.666666666666686" height="29"/>
+                                                <rect key="frame" x="40" y="469" width="64" height="29"/>
                                                 <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
                                                 <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -405,7 +417,7 @@
                                                         <real key="value" value="1"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="thumbTintColor">
-                                                        <color key="value" red="1" green="0.71372549019999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="value" red="1" green="0.76470588235294112" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="thumbTitleColor">
                                                         <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
@@ -437,7 +449,7 @@
                                                         <real key="value" value="1"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="thumbTintColor">
-                                                        <color key="value" red="1" green="0.71372549019999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="value" red="1" green="0.76470588235294112" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="thumbTitleColor">
                                                         <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
@@ -459,7 +471,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="4N1-9r-2M9" userLabel="Age Label">
-                                                <rect key="frame" x="40" y="637" width="52.666666666666657" height="29"/>
+                                                <rect key="frame" x="40" y="637" width="49" height="29"/>
                                                 <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
                                                 <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -488,7 +500,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Height" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="HdS-ij-Usm" userLabel="Height Label">
-                                                <rect key="frame" x="40.000000000000007" y="742" width="82.666666666666686" height="29"/>
+                                                <rect key="frame" x="40" y="742" width="79" height="29"/>
                                                 <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
                                                 <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -527,7 +539,7 @@
                                                         <real key="value" value="1"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="thumbTintColor">
-                                                        <color key="value" red="1" green="0.71372549019999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="value" red="1" green="0.76470588235294112" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="thumbTitleColor">
                                                         <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
@@ -543,7 +555,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weight" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="lof-1H-VPe" userLabel="Weight Label">
-                                                <rect key="frame" x="39.999999999999993" y="849" width="86.333333333333314" height="29"/>
+                                                <rect key="frame" x="40.000000000000007" y="849" width="82.666666666666686" height="29"/>
                                                 <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
                                                 <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -591,7 +603,7 @@
                                                         <real key="value" value="1"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="thumbTintColor">
-                                                        <color key="value" red="1" green="0.71372549019999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="value" red="1" green="0.76470588235294112" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="thumbTitleColor">
                                                         <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
@@ -623,12 +635,12 @@
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
                                                 <state key="normal" title="Continue">
-                                                    <color key="titleColor" red="1" green="0.71372549019999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleColor" red="1" green="0.76470588235294112" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="NO"/>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
-                                                        <color key="value" red="1" green="0.71372549019999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="value" red="1" green="0.76470588235294112" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
                                                         <real key="value" value="2"/>
@@ -650,7 +662,7 @@
                                             <constraint firstItem="0eS-M3-P7K" firstAttribute="leading" secondItem="MjS-4a-58q" secondAttribute="leading" id="43O-5t-GU4"/>
                                             <constraint firstItem="0eS-M3-P7K" firstAttribute="top" secondItem="lof-1H-VPe" secondAttribute="bottom" constant="10" id="5DC-2o-azj"/>
                                             <constraint firstItem="wLz-z1-GRW" firstAttribute="top" secondItem="MjS-4a-58q" secondAttribute="top" id="5fJ-PP-mr4"/>
-                                            <constraint firstItem="da1-FG-h7y" firstAttribute="width" secondItem="XKO-G4-YQ7" secondAttribute="width" multiplier="0.18" id="6RE-uJ-fyw"/>
+                                            <constraint firstItem="da1-FG-h7y" firstAttribute="width" secondItem="XKO-G4-YQ7" secondAttribute="width" multiplier="0.17" id="6RE-uJ-fyw"/>
                                             <constraint firstItem="da1-FG-h7y" firstAttribute="leading" secondItem="Ufl-Pd-WQ9" secondAttribute="leading" id="6p0-1h-VNm"/>
                                             <constraint firstItem="MjS-4a-58q" firstAttribute="leading" secondItem="0iK-fm-FJu" secondAttribute="leading" id="6xZ-Ct-fCv"/>
                                             <constraint firstItem="wLz-z1-GRW" firstAttribute="leading" secondItem="XKO-G4-YQ7" secondAttribute="centerX" constant="5" id="6y8-dI-JhN"/>
@@ -661,7 +673,7 @@
                                             <constraint firstItem="Ufl-Pd-WQ9" firstAttribute="leading" secondItem="9pu-oG-Vzh" secondAttribute="leading" id="9hO-zI-HgL"/>
                                             <constraint firstItem="7qo-0N-6Ww" firstAttribute="centerX" secondItem="XKO-G4-YQ7" secondAttribute="centerX" id="A7u-EN-U5K"/>
                                             <constraint firstItem="hqW-eQ-9ds" firstAttribute="trailing" secondItem="LMo-Hx-Vuj" secondAttribute="trailing" id="ALi-Re-oAN"/>
-                                            <constraint firstItem="lof-1H-VPe" firstAttribute="width" secondItem="XKO-G4-YQ7" secondAttribute="width" multiplier="0.23" id="AaZ-qn-fJE"/>
+                                            <constraint firstItem="lof-1H-VPe" firstAttribute="width" secondItem="XKO-G4-YQ7" secondAttribute="width" multiplier="0.22" id="AaZ-qn-fJE"/>
                                             <constraint firstItem="tZO-aE-fZM" firstAttribute="leading" secondItem="hqW-eQ-9ds" secondAttribute="leading" id="Aee-4J-nGJ"/>
                                             <constraint firstItem="LMo-Hx-Vuj" firstAttribute="leading" secondItem="XKO-G4-YQ7" secondAttribute="leading" constant="20" id="ApQ-JV-92z"/>
                                             <constraint firstItem="9pu-oG-Vzh" firstAttribute="top" secondItem="SvZ-i5-sbj" secondAttribute="bottom" constant="20" id="Ar3-nk-4ng"/>
@@ -688,7 +700,7 @@
                                             <constraint firstItem="Nzk-RT-oKQ" firstAttribute="trailing" secondItem="41u-9J-u6c" secondAttribute="trailing" id="V0T-Kv-8Oc"/>
                                             <constraint firstItem="HdS-ij-Usm" firstAttribute="leading" secondItem="4N1-9r-2M9" secondAttribute="leading" id="WQt-PU-9MC"/>
                                             <constraint firstItem="L59-Ok-4ct" firstAttribute="top" secondItem="0eS-M3-P7K" secondAttribute="bottom" constant="20" id="WVJ-Qd-Ogn"/>
-                                            <constraint firstItem="HdS-ij-Usm" firstAttribute="width" secondItem="XKO-G4-YQ7" secondAttribute="width" multiplier="0.22" id="X1s-bP-4NL"/>
+                                            <constraint firstItem="HdS-ij-Usm" firstAttribute="width" secondItem="XKO-G4-YQ7" secondAttribute="width" multiplier="0.21" id="X1s-bP-4NL"/>
                                             <constraint firstItem="da1-FG-h7y" firstAttribute="top" secondItem="hqW-eQ-9ds" secondAttribute="bottom" constant="20" id="Xd2-fU-2LM"/>
                                             <constraint firstItem="hqW-eQ-9ds" firstAttribute="leading" secondItem="LMo-Hx-Vuj" secondAttribute="leading" id="YKA-E7-KQ3"/>
                                             <constraint firstAttribute="trailing" secondItem="2Li-VZ-02P" secondAttribute="trailing" constant="20" id="ZU1-07-oIy"/>
@@ -705,7 +717,7 @@
                                             <constraint firstItem="lof-1H-VPe" firstAttribute="top" secondItem="MjS-4a-58q" secondAttribute="bottom" constant="20" id="klB-mp-Tul"/>
                                             <constraint firstItem="SvZ-i5-sbj" firstAttribute="top" secondItem="7qo-0N-6Ww" secondAttribute="bottom" constant="20" id="nhw-uz-mXA"/>
                                             <constraint firstAttribute="bottom" secondItem="zdI-Hb-pJV" secondAttribute="bottom" constant="20" id="owN-TO-NtQ"/>
-                                            <constraint firstItem="4N1-9r-2M9" firstAttribute="width" secondItem="XKO-G4-YQ7" secondAttribute="width" multiplier="0.14" id="rhE-mm-Szn"/>
+                                            <constraint firstItem="4N1-9r-2M9" firstAttribute="width" secondItem="XKO-G4-YQ7" secondAttribute="width" multiplier="0.13" id="rhE-mm-Szn"/>
                                             <constraint firstAttribute="trailing" secondItem="zdI-Hb-pJV" secondAttribute="trailing" constant="20" id="rhc-w5-r5k"/>
                                             <constraint firstAttribute="centerX" secondItem="0eS-M3-P7K" secondAttribute="trailing" constant="5" id="udR-64-WWf"/>
                                             <constraint firstItem="SvZ-i5-sbj" firstAttribute="centerX" secondItem="XKO-G4-YQ7" secondAttribute="centerX" id="xnb-yW-z9L"/>
@@ -743,243 +755,276 @@
         <!--Select Position-->
         <scene sceneID="wVs-qa-Zxd">
             <objects>
-                <viewController title="Select Position" id="lLC-rA-W90" customClass="SelectPositionVC" customModule="Joguito" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Select Position" automaticallyAdjustsScrollViewInsets="NO" id="lLC-rA-W90" customClass="SelectPositionVC" customModule="Joguito" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sMS-n4-NmE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8tW-d0-4jG">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tW-d0-4jG">
                                 <rect key="frame" x="0.0" y="44" width="375" height="734"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3XL-lM-0zV" customClass="StepIndicatorView" customModule="Joguito" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="10" width="335" height="30"/>
+                                    <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ail-0e-dI6">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="745.66666666666663"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3XL-lM-0zV" customClass="StepIndicatorView" customModule="Joguito" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="20" width="335" height="30"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="hb0-4O-boq"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfSteps">
+                                                        <integer key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="currentStep">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="circleColor">
+                                                        <color key="value" red="0.082352941176470587" green="0.49411764705882355" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="circleTintColor">
+                                                        <color key="value" red="0.08235294118" green="0.4941176471" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                        <color key="value" red="0.08235294118" green="0.4941176471" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="directionRaw">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="lineTintColor">
+                                                        <color key="value" red="0.08235294118" green="0.4941176471" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="circleStrokeWidth">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="circleRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="lineMargin">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="lineStrokeWidth">
+                                                        <real key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Field Bg" translatesAutoresizingMaskIntoConstraints="NO" id="x7f-Gr-GI7">
+                                                <rect key="frame" x="20" y="109.99999999999999" width="335" height="188.66666666666663"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="x7f-Gr-GI7" secondAttribute="height" multiplier="16:9" id="bac-hW-MB3"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Position" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jer-6i-ZIg" userLabel="Select Position Label">
+                                                <rect key="frame" x="40" y="338.66666666666669" width="168.66666666666666" height="29"/>
+                                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
+                                                <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eR-Qy-8WK" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="377.66666666666669" width="157.66666666666666" height="48"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="pra-rx-7HE"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="20"/>
+                                                <state key="normal" title="GoalKeeper">
+                                                    <color key="titleColor" red="0.054901960780000002" green="0.10980392160000001" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                                        <color key="value" red="0.96470588235294119" green="0.92156862745098034" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                                        <color key="value" red="1" green="0.76470588235294112" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D9X-gz-UeX" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
+                                                <rect key="frame" x="197.66666666666663" y="377.66666666666669" width="157.33333333333337" height="48"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="20"/>
+                                                <state key="normal" title="Defender">
+                                                    <color key="titleColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
+                                                        <color key="value" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxL-gl-A2Z" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="435.66666666666669" width="157.66666666666666" height="48"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="20"/>
+                                                <state key="normal" title="Left Back">
+                                                    <color key="titleColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
+                                                        <color key="value" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePl-xk-n0P" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
+                                                <rect key="frame" x="197.66666666666663" y="435.66666666666669" width="157.33333333333337" height="48"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="20"/>
+                                                <state key="normal" title="Right Back">
+                                                    <color key="titleColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
+                                                        <color key="value" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYX-tf-bg0" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="493.66666666666663" width="186" height="48"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="20"/>
+                                                <state key="normal" title="Holding Midfielder">
+                                                    <color key="titleColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
+                                                        <color key="value" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2t1-Xe-oRr" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="551.66666666666663" width="195" height="48"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="20"/>
+                                                <state key="normal" title="Attacking Midfielder">
+                                                    <color key="titleColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
+                                                        <color key="value" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwj-lc-D1r" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="609.66666666666663" width="157.66666666666666" height="48"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="20"/>
+                                                <state key="normal" title="Striker">
+                                                    <color key="titleColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
+                                                        <color key="value" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3l-Kf-CoB" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="677.66666666666663" width="335" height="48"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="U7j-aw-cRF"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
+                                                <state key="normal" title="Continue">
+                                                    <color key="titleColor" red="1" green="0.76470588235294112" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
+                                                        <color key="value" red="1" green="0.76470588235294112" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="74h-uB-Bcc" kind="show" id="5hb-xk-vgG"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="hb0-4O-boq"/>
+                                            <constraint firstItem="uwj-lc-D1r" firstAttribute="height" secondItem="dxL-gl-A2Z" secondAttribute="height" id="3gE-cv-7sb"/>
+                                            <constraint firstItem="2t1-Xe-oRr" firstAttribute="leading" secondItem="TYX-tf-bg0" secondAttribute="leading" id="4EU-Nw-wEJ"/>
+                                            <constraint firstItem="TYX-tf-bg0" firstAttribute="height" secondItem="dxL-gl-A2Z" secondAttribute="height" id="7BF-1N-Q2s"/>
+                                            <constraint firstItem="Jer-6i-ZIg" firstAttribute="leading" secondItem="ail-0e-dI6" secondAttribute="leading" constant="40" id="7DY-cN-1Nz"/>
+                                            <constraint firstItem="5eR-Qy-8WK" firstAttribute="top" secondItem="Jer-6i-ZIg" secondAttribute="bottom" constant="10" id="AGh-Ph-UQt"/>
+                                            <constraint firstItem="2t1-Xe-oRr" firstAttribute="top" secondItem="TYX-tf-bg0" secondAttribute="bottom" constant="10" id="Cbw-PF-zTx"/>
+                                            <constraint firstItem="3XL-lM-0zV" firstAttribute="centerX" secondItem="ail-0e-dI6" secondAttribute="centerX" id="DyO-5q-Jys"/>
+                                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="TYX-tf-bg0" secondAttribute="trailing" constant="169" id="F2Y-g4-oLJ"/>
+                                            <constraint firstAttribute="centerX" secondItem="5eR-Qy-8WK" secondAttribute="trailing" constant="10" id="Kba-wm-odm"/>
+                                            <constraint firstItem="x7f-Gr-GI7" firstAttribute="centerX" secondItem="ail-0e-dI6" secondAttribute="centerX" id="Lms-rT-jNy"/>
+                                            <constraint firstItem="uwj-lc-D1r" firstAttribute="leading" secondItem="2t1-Xe-oRr" secondAttribute="leading" id="NIW-02-sEy"/>
+                                            <constraint firstAttribute="trailing" secondItem="3XL-lM-0zV" secondAttribute="trailing" constant="20" id="Ndo-OL-Fcd"/>
+                                            <constraint firstItem="Jer-6i-ZIg" firstAttribute="top" secondItem="x7f-Gr-GI7" secondAttribute="bottom" constant="40" id="NeT-Xx-A2i"/>
+                                            <constraint firstItem="TYX-tf-bg0" firstAttribute="top" secondItem="dxL-gl-A2Z" secondAttribute="bottom" constant="10" id="O7o-dR-NY5"/>
+                                            <constraint firstItem="Q3l-Kf-CoB" firstAttribute="leading" secondItem="ail-0e-dI6" secondAttribute="leading" constant="20" id="OZ4-vL-Ntc"/>
+                                            <constraint firstAttribute="trailing" secondItem="D9X-gz-UeX" secondAttribute="trailing" constant="20" id="Owv-56-hUs"/>
+                                            <constraint firstItem="ePl-xk-n0P" firstAttribute="trailing" secondItem="D9X-gz-UeX" secondAttribute="trailing" id="PEg-YF-iTL"/>
+                                            <constraint firstItem="x7f-Gr-GI7" firstAttribute="top" secondItem="3XL-lM-0zV" secondAttribute="bottom" constant="60" id="PQv-WE-Fj4"/>
+                                            <constraint firstItem="dxL-gl-A2Z" firstAttribute="height" secondItem="5eR-Qy-8WK" secondAttribute="height" id="PvW-ba-IFO"/>
+                                            <constraint firstItem="dxL-gl-A2Z" firstAttribute="trailing" secondItem="5eR-Qy-8WK" secondAttribute="trailing" id="S7S-h5-vaz"/>
+                                            <constraint firstItem="uwj-lc-D1r" firstAttribute="trailing" secondItem="dxL-gl-A2Z" secondAttribute="trailing" id="SNv-so-Oy7"/>
+                                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="2t1-Xe-oRr" secondAttribute="trailing" constant="169" id="SO7-rX-ZiS"/>
+                                            <constraint firstItem="D9X-gz-UeX" firstAttribute="leading" secondItem="ail-0e-dI6" secondAttribute="centerX" constant="10" id="TVL-Pm-Aa4"/>
+                                            <constraint firstItem="dxL-gl-A2Z" firstAttribute="top" secondItem="5eR-Qy-8WK" secondAttribute="bottom" constant="10" id="TkH-Qu-qd7"/>
+                                            <constraint firstAttribute="trailing" secondItem="x7f-Gr-GI7" secondAttribute="trailing" constant="20" id="UDn-iq-KYj"/>
+                                            <constraint firstItem="ePl-xk-n0P" firstAttribute="height" secondItem="dxL-gl-A2Z" secondAttribute="height" id="UNS-J6-Wyg"/>
+                                            <constraint firstItem="D9X-gz-UeX" firstAttribute="top" secondItem="5eR-Qy-8WK" secondAttribute="top" id="WKN-PH-yuc"/>
+                                            <constraint firstItem="D9X-gz-UeX" firstAttribute="bottom" secondItem="5eR-Qy-8WK" secondAttribute="bottom" id="XD3-8L-sDB"/>
+                                            <constraint firstItem="Q3l-Kf-CoB" firstAttribute="top" secondItem="uwj-lc-D1r" secondAttribute="bottom" constant="20" id="alJ-yA-6kI"/>
+                                            <constraint firstItem="3XL-lM-0zV" firstAttribute="top" secondItem="ail-0e-dI6" secondAttribute="top" constant="20" id="cgW-3g-mop"/>
+                                            <constraint firstItem="3XL-lM-0zV" firstAttribute="leading" secondItem="ail-0e-dI6" secondAttribute="leading" constant="20" id="hr6-Y9-1VG"/>
+                                            <constraint firstItem="5eR-Qy-8WK" firstAttribute="leading" secondItem="ail-0e-dI6" secondAttribute="leading" constant="20" id="iWL-Cc-CWf"/>
+                                            <constraint firstItem="2t1-Xe-oRr" firstAttribute="height" secondItem="TYX-tf-bg0" secondAttribute="height" id="lL0-Ys-8wd"/>
+                                            <constraint firstItem="dxL-gl-A2Z" firstAttribute="leading" secondItem="5eR-Qy-8WK" secondAttribute="leading" id="pjr-IW-Oq1"/>
+                                            <constraint firstItem="uwj-lc-D1r" firstAttribute="top" secondItem="2t1-Xe-oRr" secondAttribute="bottom" constant="10" id="qjZ-aN-YF1"/>
+                                            <constraint firstItem="TYX-tf-bg0" firstAttribute="leading" secondItem="dxL-gl-A2Z" secondAttribute="leading" id="reZ-cn-okz"/>
+                                            <constraint firstItem="x7f-Gr-GI7" firstAttribute="leading" secondItem="ail-0e-dI6" secondAttribute="leading" constant="20" id="s82-IJ-yfP"/>
+                                            <constraint firstItem="ePl-xk-n0P" firstAttribute="leading" secondItem="ail-0e-dI6" secondAttribute="centerX" constant="10" id="sK4-rs-2U0"/>
+                                            <constraint firstAttribute="trailing" secondItem="Q3l-Kf-CoB" secondAttribute="trailing" constant="20" id="vJg-wD-U4B"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Jer-6i-ZIg" secondAttribute="trailing" constant="20" symbolic="YES" id="xcN-O3-yLe"/>
+                                            <constraint firstItem="ePl-xk-n0P" firstAttribute="top" secondItem="D9X-gz-UeX" secondAttribute="bottom" constant="10" id="yFW-T9-BHw"/>
+                                            <constraint firstAttribute="bottom" secondItem="Q3l-Kf-CoB" secondAttribute="bottom" constant="20" id="zty-eH-woC"/>
                                         </constraints>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="numberOfSteps">
-                                                <integer key="value" value="3"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="currentStep">
-                                                <integer key="value" value="0"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="circleColor">
-                                                <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="circleTintColor">
-                                                <color key="value" red="0.1960784314" green="0.27058823529999998" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
-                                                <color key="value" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="directionRaw">
-                                                <integer key="value" value="0"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="lineTintColor">
-                                                <color key="value" red="0.1960784314" green="0.27058823529999998" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
                                     </view>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Field Bg" translatesAutoresizingMaskIntoConstraints="NO" id="x7f-Gr-GI7">
-                                        <rect key="frame" x="20" y="100" width="335" height="188"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="x7f-Gr-GI7" secondAttribute="height" multiplier="16:9" id="bac-hW-MB3"/>
-                                        </constraints>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Position" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jer-6i-ZIg" userLabel="Select Position Label">
-                                        <rect key="frame" x="40" y="328" width="168.66666666666666" height="29"/>
-                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
-                                        <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eR-Qy-8WK" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="367" width="163" height="48"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="48" id="pra-rx-7HE"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="20"/>
-                                        <state key="normal" title="GoalKeeper">
-                                            <color key="titleColor" red="0.054901960780000002" green="0.10980392160000001" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="YES"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D9X-gz-UeX" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
-                                        <rect key="frame" x="193" y="367" width="162" height="48"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="20"/>
-                                        <state key="normal" title="Defender">
-                                            <color key="titleColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="NO"/>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
-                                                <color key="value" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
-                                                <real key="value" value="1"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxL-gl-A2Z" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="425" width="163" height="48"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="20"/>
-                                        <state key="normal" title="Left Back">
-                                            <color key="titleColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="NO"/>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
-                                                <color key="value" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
-                                                <real key="value" value="1"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePl-xk-n0P" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
-                                        <rect key="frame" x="193" y="425" width="162" height="48"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="20"/>
-                                        <state key="normal" title="Right Back">
-                                            <color key="titleColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="NO"/>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
-                                                <color key="value" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
-                                                <real key="value" value="1"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYX-tf-bg0" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="483" width="245" height="48"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="20"/>
-                                        <state key="normal" title="Holding Midfielder">
-                                            <color key="titleColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="NO"/>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
-                                                <color key="value" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
-                                                <real key="value" value="1"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2t1-Xe-oRr" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="541" width="245" height="48"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="20"/>
-                                        <state key="normal" title="Attacking Midfielder">
-                                            <color key="titleColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="NO"/>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
-                                                <color key="value" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
-                                                <real key="value" value="1"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwj-lc-D1r" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="599" width="163" height="48"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="20"/>
-                                        <state key="normal" title="Striker">
-                                            <color key="titleColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="NO"/>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
-                                                <color key="value" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
-                                                <real key="value" value="1"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3l-Kf-CoB" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="667" width="335" height="48"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="48" id="U7j-aw-cRF"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
-                                        <state key="normal" title="Continue">
-                                            <color key="titleColor" red="1" green="0.71372549019999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="NO"/>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="edgesColor">
-                                                <color key="value" red="1" green="0.71372549019999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="edgesThikness">
-                                                <real key="value" value="2"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <segue destination="74h-uB-Bcc" kind="show" id="5hb-xk-vgG"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="Jer-6i-ZIg" firstAttribute="leading" secondItem="8tW-d0-4jG" secondAttribute="leading" constant="40" id="1Rd-4u-3LN"/>
-                                    <constraint firstItem="uwj-lc-D1r" firstAttribute="trailing" secondItem="dxL-gl-A2Z" secondAttribute="trailing" id="1zT-qE-V99"/>
-                                    <constraint firstItem="D9X-gz-UeX" firstAttribute="leading" secondItem="8tW-d0-4jG" secondAttribute="centerX" constant="5" id="3gB-HE-oDy"/>
-                                    <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="TYX-tf-bg0" secondAttribute="trailing" constant="110" id="6IA-aa-4ib"/>
-                                    <constraint firstItem="Q3l-Kf-CoB" firstAttribute="leading" secondItem="8tW-d0-4jG" secondAttribute="leading" constant="20" id="6bS-HV-LLJ"/>
-                                    <constraint firstItem="dxL-gl-A2Z" firstAttribute="height" secondItem="5eR-Qy-8WK" secondAttribute="height" id="6zS-66-y7T"/>
-                                    <constraint firstItem="D9X-gz-UeX" firstAttribute="bottom" secondItem="5eR-Qy-8WK" secondAttribute="bottom" id="8Ew-kk-Xwk"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Jer-6i-ZIg" secondAttribute="trailing" constant="20" symbolic="YES" id="AxD-yE-Qr5"/>
-                                    <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="2t1-Xe-oRr" secondAttribute="trailing" constant="110" id="Cgl-Ac-gUI"/>
-                                    <constraint firstAttribute="centerX" secondItem="5eR-Qy-8WK" secondAttribute="trailing" constant="5" id="DnU-sc-Fye"/>
-                                    <constraint firstItem="ePl-xk-n0P" firstAttribute="top" secondItem="D9X-gz-UeX" secondAttribute="bottom" constant="10" id="F4Z-VZ-JjV"/>
-                                    <constraint firstItem="x7f-Gr-GI7" firstAttribute="top" secondItem="3XL-lM-0zV" secondAttribute="bottom" constant="60" id="Gfp-4d-jRB"/>
-                                    <constraint firstItem="ePl-xk-n0P" firstAttribute="trailing" secondItem="D9X-gz-UeX" secondAttribute="trailing" id="H7v-TC-bEe"/>
-                                    <constraint firstItem="dxL-gl-A2Z" firstAttribute="trailing" secondItem="5eR-Qy-8WK" secondAttribute="trailing" id="HuY-rB-m58"/>
-                                    <constraint firstItem="TYX-tf-bg0" firstAttribute="leading" secondItem="dxL-gl-A2Z" secondAttribute="leading" id="J8G-fG-2Dw"/>
-                                    <constraint firstItem="Jer-6i-ZIg" firstAttribute="top" secondItem="x7f-Gr-GI7" secondAttribute="bottom" constant="40" id="Jgw-uj-dHy"/>
-                                    <constraint firstItem="3XL-lM-0zV" firstAttribute="leading" secondItem="x7f-Gr-GI7" secondAttribute="leading" id="Qbx-LT-YP3"/>
-                                    <constraint firstItem="ePl-xk-n0P" firstAttribute="height" secondItem="dxL-gl-A2Z" secondAttribute="height" id="Qqf-C1-iKz"/>
-                                    <constraint firstAttribute="trailing" secondItem="Q3l-Kf-CoB" secondAttribute="trailing" constant="20" id="R96-es-fNa"/>
-                                    <constraint firstItem="3XL-lM-0zV" firstAttribute="centerX" secondItem="8tW-d0-4jG" secondAttribute="centerX" id="RZP-wt-H54"/>
-                                    <constraint firstItem="TYX-tf-bg0" firstAttribute="top" secondItem="dxL-gl-A2Z" secondAttribute="bottom" constant="10" id="Tgv-8l-fJ9"/>
-                                    <constraint firstItem="2t1-Xe-oRr" firstAttribute="leading" secondItem="TYX-tf-bg0" secondAttribute="leading" id="Tma-nz-Q4p"/>
-                                    <constraint firstItem="TYX-tf-bg0" firstAttribute="height" secondItem="dxL-gl-A2Z" secondAttribute="height" id="V7q-wG-cvs"/>
-                                    <constraint firstItem="uwj-lc-D1r" firstAttribute="top" secondItem="2t1-Xe-oRr" secondAttribute="bottom" constant="10" id="Wxu-lA-1Dk"/>
-                                    <constraint firstItem="uwj-lc-D1r" firstAttribute="height" secondItem="dxL-gl-A2Z" secondAttribute="height" id="Ysf-wu-mjf"/>
-                                    <constraint firstItem="Q3l-Kf-CoB" firstAttribute="top" secondItem="uwj-lc-D1r" secondAttribute="bottom" constant="20" id="co1-pR-2Wt"/>
-                                    <constraint firstItem="5eR-Qy-8WK" firstAttribute="leading" secondItem="8tW-d0-4jG" secondAttribute="leading" constant="20" id="fLo-qt-rfE"/>
-                                    <constraint firstItem="3XL-lM-0zV" firstAttribute="trailing" secondItem="x7f-Gr-GI7" secondAttribute="trailing" id="fvb-Jx-kJz"/>
-                                    <constraint firstItem="2t1-Xe-oRr" firstAttribute="top" secondItem="TYX-tf-bg0" secondAttribute="bottom" constant="10" id="hN3-5M-yhH"/>
-                                    <constraint firstItem="dxL-gl-A2Z" firstAttribute="leading" secondItem="5eR-Qy-8WK" secondAttribute="leading" id="hcz-z7-uzg"/>
-                                    <constraint firstItem="5eR-Qy-8WK" firstAttribute="top" secondItem="Jer-6i-ZIg" secondAttribute="bottom" constant="10" id="hdM-1n-fbi"/>
-                                    <constraint firstAttribute="trailing" secondItem="3XL-lM-0zV" secondAttribute="trailing" constant="20" id="jEu-Zh-h6H"/>
-                                    <constraint firstItem="uwj-lc-D1r" firstAttribute="leading" secondItem="2t1-Xe-oRr" secondAttribute="leading" id="jZl-J7-eH6"/>
-                                    <constraint firstAttribute="trailing" secondItem="D9X-gz-UeX" secondAttribute="trailing" constant="20" id="k3e-sa-tbq"/>
-                                    <constraint firstAttribute="bottom" secondItem="Q3l-Kf-CoB" secondAttribute="bottom" id="oMs-V7-K7s"/>
-                                    <constraint firstItem="3XL-lM-0zV" firstAttribute="top" secondItem="8tW-d0-4jG" secondAttribute="top" constant="10" id="pqg-1r-qL5"/>
-                                    <constraint firstItem="D9X-gz-UeX" firstAttribute="top" secondItem="5eR-Qy-8WK" secondAttribute="top" id="rzh-gD-hoh"/>
-                                    <constraint firstItem="3XL-lM-0zV" firstAttribute="leading" secondItem="8tW-d0-4jG" secondAttribute="leading" constant="20" id="tPq-A4-Xp5"/>
-                                    <constraint firstItem="ePl-xk-n0P" firstAttribute="leading" secondItem="8tW-d0-4jG" secondAttribute="centerX" constant="5" id="vH8-Gj-Zx1"/>
-                                    <constraint firstItem="2t1-Xe-oRr" firstAttribute="height" secondItem="TYX-tf-bg0" secondAttribute="height" id="xUP-ax-tVm"/>
-                                    <constraint firstItem="dxL-gl-A2Z" firstAttribute="top" secondItem="5eR-Qy-8WK" secondAttribute="bottom" constant="10" id="xVV-NN-wuk"/>
+                                    <constraint firstItem="ail-0e-dI6" firstAttribute="top" secondItem="8tW-d0-4jG" secondAttribute="top" id="1o8-QL-iwK"/>
+                                    <constraint firstItem="ail-0e-dI6" firstAttribute="leading" secondItem="8tW-d0-4jG" secondAttribute="leading" id="BX4-jd-edZ"/>
+                                    <constraint firstItem="ail-0e-dI6" firstAttribute="width" secondItem="8tW-d0-4jG" secondAttribute="width" id="BiX-8y-mMQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="ail-0e-dI6" secondAttribute="bottom" id="Nmn-2y-WaM"/>
+                                    <constraint firstItem="ail-0e-dI6" firstAttribute="centerX" secondItem="8tW-d0-4jG" secondAttribute="centerX" id="Odz-2y-rhG"/>
+                                    <constraint firstAttribute="trailing" secondItem="ail-0e-dI6" secondAttribute="trailing" id="Rqm-Py-Va6"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.08235294118" green="0.16862745100000001" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="8tW-d0-4jG" firstAttribute="width" secondItem="sMS-n4-NmE" secondAttribute="width" id="Jb0-gb-Tha"/>
+                            <constraint firstItem="8tW-d0-4jG" firstAttribute="trailing" secondItem="sMS-n4-NmE" secondAttribute="trailing" id="LZm-SM-4Zy"/>
                             <constraint firstItem="8tW-d0-4jG" firstAttribute="bottom" secondItem="HKH-iU-oFJ" secondAttribute="bottom" id="TB0-je-QgT"/>
                             <constraint firstItem="8tW-d0-4jG" firstAttribute="leading" secondItem="sMS-n4-NmE" secondAttribute="leading" id="VM6-93-aXq"/>
                             <constraint firstItem="HKH-iU-oFJ" firstAttribute="top" secondItem="8tW-d0-4jG" secondAttribute="top" id="YEr-wV-AOd"/>
@@ -1007,21 +1052,387 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="LcI-PW-yb1" customClass="GradientSlider" customModule="Joguito" customModuleProvider="target">
-                                <rect key="frame" x="18" y="54" width="339" height="40"/>
-                            </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="6Ui-hw-W9R">
-                                <rect key="frame" x="18" y="113" width="339" height="31"/>
-                            </slider>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wx8-EY-vhL">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SEp-wP-aY0" userLabel="Container View">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lvA-sW-1Ne" customClass="StepIndicatorView" customModule="Joguito" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="20" width="335" height="30"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="gHs-eo-9Ed"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfSteps">
+                                                        <integer key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="currentStep">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="circleColor">
+                                                        <color key="value" red="0.08235294118" green="0.4941176471" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="circleTintColor">
+                                                        <color key="value" red="0.08235294118" green="0.4941176471" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                        <color key="value" red="0.08235294118" green="0.4941176471" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="directionRaw">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="lineTintColor">
+                                                        <color key="value" red="0.08235294118" green="0.4941176471" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="circleStrokeWidth">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="circleRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="lineMargin">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="lineStrokeWidth">
+                                                        <real key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fcE-yH-JgZ" userLabel="Defending">
+                                                <rect key="frame" x="0.0" y="110" width="375" height="72.666666666666686"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Defending" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIN-Js-fBe">
+                                                        <rect key="frame" x="20" y="0.0" width="119" height="29"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
+                                                        <color key="textColor" red="0.59607843140000005" green="0.64705882349999999" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="5Le-EF-s97" customClass="GradientSlider" customModule="Joguito" customModuleProvider="target">
+                                                        <rect key="frame" x="18" y="39" width="299" height="26"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="thickness">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="image" keyPath="sliderThumbImage" value="Slider Thumb"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </slider>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sin-Wb-ocF">
+                                                        <rect key="frame" x="20" y="54" width="10" height="18.666666666666671"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="15"/>
+                                                        <color key="textColor" red="0.59607843137254901" green="0.6470588235294118" blue="0.69019607843137254" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7E-Lx-eTo">
+                                                        <rect key="frame" x="340" y="29" width="15" height="29"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
+                                                        <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sgS-Jp-E8R">
+                                                        <rect key="frame" x="296" y="54" width="19" height="18.666666666666671"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="15"/>
+                                                        <color key="textColor" red="0.59607843140000005" green="0.64705882349999999" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="Sin-Wb-ocF" secondAttribute="bottom" id="0RN-qM-Qr3"/>
+                                                    <constraint firstItem="dIN-Js-fBe" firstAttribute="top" secondItem="fcE-yH-JgZ" secondAttribute="top" id="3Ug-Sq-lXm"/>
+                                                    <constraint firstAttribute="bottom" secondItem="sgS-Jp-E8R" secondAttribute="bottom" id="Djg-wb-SF3"/>
+                                                    <constraint firstItem="o7E-Lx-eTo" firstAttribute="leading" secondItem="sgS-Jp-E8R" secondAttribute="trailing" constant="25" id="DkV-WW-kkO"/>
+                                                    <constraint firstItem="sgS-Jp-E8R" firstAttribute="top" secondItem="5Le-EF-s97" secondAttribute="bottom" constant="-10" id="NX9-yF-mh2"/>
+                                                    <constraint firstItem="5Le-EF-s97" firstAttribute="leading" secondItem="Sin-Wb-ocF" secondAttribute="leading" id="NeC-Nk-DHm"/>
+                                                    <constraint firstItem="Sin-Wb-ocF" firstAttribute="leading" secondItem="dIN-Js-fBe" secondAttribute="leading" id="PtJ-Uj-rvd"/>
+                                                    <constraint firstItem="dIN-Js-fBe" firstAttribute="leading" secondItem="fcE-yH-JgZ" secondAttribute="leading" constant="20" id="V2g-uk-9aS"/>
+                                                    <constraint firstItem="5Le-EF-s97" firstAttribute="top" secondItem="dIN-Js-fBe" secondAttribute="bottom" constant="10" id="Xux-dd-u5H"/>
+                                                    <constraint firstAttribute="trailing" secondItem="o7E-Lx-eTo" secondAttribute="trailing" constant="19.999999999999943" id="fEx-xC-4Oq"/>
+                                                    <constraint firstItem="Sin-Wb-ocF" firstAttribute="top" secondItem="5Le-EF-s97" secondAttribute="bottom" constant="-10" id="pyH-Tl-hUV"/>
+                                                    <constraint firstItem="o7E-Lx-eTo" firstAttribute="top" secondItem="dIN-Js-fBe" secondAttribute="bottom" id="qgV-v4-Vz5"/>
+                                                    <constraint firstItem="sgS-Jp-E8R" firstAttribute="trailing" secondItem="5Le-EF-s97" secondAttribute="trailing" id="u2I-1B-TqE"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GkO-dN-dQC" userLabel="Attacking">
+                                                <rect key="frame" x="0.0" y="202.66666666666666" width="375" height="71.999999999999972"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attacking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kUI-5h-aV0">
+                                                        <rect key="frame" x="20" y="0.0" width="111" height="29"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
+                                                        <color key="textColor" red="0.59607843140000005" green="0.64705882349999999" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="nwK-xb-ET8" customClass="GradientSlider" customModule="Joguito" customModuleProvider="target">
+                                                        <rect key="frame" x="18" y="39.000000000000028" width="299" height="26"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="thickness">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="image" keyPath="sliderThumbImage" value="Slider Thumb"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </slider>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buw-CB-RL8">
+                                                        <rect key="frame" x="20" y="54.000000000000028" width="10" height="18"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="15"/>
+                                                        <color key="textColor" red="0.59607843140000005" green="0.64705882349999999" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qKi-5Z-rvp">
+                                                        <rect key="frame" x="340" y="29.000000000000028" width="15" height="29"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
+                                                        <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ND-DA-8DL">
+                                                        <rect key="frame" x="296" y="54.000000000000028" width="19" height="18"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="15"/>
+                                                        <color key="textColor" red="0.59607843140000005" green="0.64705882349999999" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="nwK-xb-ET8" firstAttribute="leading" secondItem="buw-CB-RL8" secondAttribute="leading" id="0XO-6D-ptA"/>
+                                                    <constraint firstItem="buw-CB-RL8" firstAttribute="top" secondItem="nwK-xb-ET8" secondAttribute="bottom" constant="-10" id="1l0-vD-lqI"/>
+                                                    <constraint firstAttribute="trailing" secondItem="qKi-5Z-rvp" secondAttribute="trailing" constant="19.999999999999943" id="8gt-kV-bvg"/>
+                                                    <constraint firstAttribute="bottom" secondItem="0ND-DA-8DL" secondAttribute="bottom" id="AGp-BR-jX7"/>
+                                                    <constraint firstItem="kUI-5h-aV0" firstAttribute="top" secondItem="GkO-dN-dQC" secondAttribute="top" id="JSZ-qG-Lzi"/>
+                                                    <constraint firstAttribute="bottom" secondItem="buw-CB-RL8" secondAttribute="bottom" id="WQi-81-0ix"/>
+                                                    <constraint firstItem="qKi-5Z-rvp" firstAttribute="leading" secondItem="0ND-DA-8DL" secondAttribute="trailing" constant="25" id="XjW-dq-x10"/>
+                                                    <constraint firstItem="buw-CB-RL8" firstAttribute="leading" secondItem="kUI-5h-aV0" secondAttribute="leading" id="gcy-MP-cXS"/>
+                                                    <constraint firstItem="qKi-5Z-rvp" firstAttribute="top" secondItem="kUI-5h-aV0" secondAttribute="bottom" id="haA-wu-Vx2"/>
+                                                    <constraint firstItem="nwK-xb-ET8" firstAttribute="top" secondItem="kUI-5h-aV0" secondAttribute="bottom" constant="10" id="jLT-h2-jFf"/>
+                                                    <constraint firstItem="0ND-DA-8DL" firstAttribute="top" secondItem="nwK-xb-ET8" secondAttribute="bottom" constant="-10" id="l0N-ZU-JMl"/>
+                                                    <constraint firstItem="0ND-DA-8DL" firstAttribute="trailing" secondItem="nwK-xb-ET8" secondAttribute="trailing" id="qry-AC-tmx"/>
+                                                    <constraint firstItem="kUI-5h-aV0" firstAttribute="leading" secondItem="GkO-dN-dQC" secondAttribute="leading" constant="20" id="sU6-HX-F5F"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U4j-Bb-Z0h" userLabel="Technical">
+                                                <rect key="frame" x="0.0" y="294.66666666666669" width="375" height="72.333333333333314"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Technical" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awh-yg-dEt">
+                                                        <rect key="frame" x="20" y="0.0" width="107" height="29"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
+                                                        <color key="textColor" red="0.59607843140000005" green="0.64705882349999999" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="5k4-uD-KCQ" customClass="GradientSlider" customModule="Joguito" customModuleProvider="target">
+                                                        <rect key="frame" x="18" y="39" width="299" height="26"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="thickness">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="image" keyPath="sliderThumbImage" value="Slider Thumb"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </slider>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0uA-HN-OOZ">
+                                                        <rect key="frame" x="20" y="54" width="10" height="18.333333333333329"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="15"/>
+                                                        <color key="textColor" red="0.59607843140000005" green="0.64705882349999999" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8FX-vN-Mfj">
+                                                        <rect key="frame" x="340" y="29" width="15" height="29"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
+                                                        <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WYW-IK-ybi">
+                                                        <rect key="frame" x="296" y="54" width="19" height="18.333333333333329"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="15"/>
+                                                        <color key="textColor" red="0.59607843140000005" green="0.64705882349999999" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="awh-yg-dEt" firstAttribute="top" secondItem="U4j-Bb-Z0h" secondAttribute="top" id="5zw-11-6r7"/>
+                                                    <constraint firstItem="0uA-HN-OOZ" firstAttribute="leading" secondItem="awh-yg-dEt" secondAttribute="leading" id="64S-sZ-Jxf"/>
+                                                    <constraint firstItem="0uA-HN-OOZ" firstAttribute="top" secondItem="5k4-uD-KCQ" secondAttribute="bottom" constant="-10" id="7Yl-Ax-r1f"/>
+                                                    <constraint firstAttribute="bottom" secondItem="WYW-IK-ybi" secondAttribute="bottom" id="A5E-oP-whb"/>
+                                                    <constraint firstItem="8FX-vN-Mfj" firstAttribute="top" secondItem="awh-yg-dEt" secondAttribute="bottom" id="E94-ll-yfh"/>
+                                                    <constraint firstItem="WYW-IK-ybi" firstAttribute="trailing" secondItem="5k4-uD-KCQ" secondAttribute="trailing" id="GkB-jT-ZE2"/>
+                                                    <constraint firstItem="8FX-vN-Mfj" firstAttribute="leading" secondItem="WYW-IK-ybi" secondAttribute="trailing" constant="25" id="SCh-j1-GZz"/>
+                                                    <constraint firstAttribute="bottom" secondItem="0uA-HN-OOZ" secondAttribute="bottom" id="Viy-3X-8Zd"/>
+                                                    <constraint firstItem="5k4-uD-KCQ" firstAttribute="top" secondItem="awh-yg-dEt" secondAttribute="bottom" constant="10" id="Wqz-Wb-ogv"/>
+                                                    <constraint firstItem="WYW-IK-ybi" firstAttribute="top" secondItem="5k4-uD-KCQ" secondAttribute="bottom" constant="-10" id="iVX-1V-UKb"/>
+                                                    <constraint firstAttribute="trailing" secondItem="8FX-vN-Mfj" secondAttribute="trailing" constant="19.999999999999943" id="ik0-EO-Unz"/>
+                                                    <constraint firstItem="5k4-uD-KCQ" firstAttribute="leading" secondItem="0uA-HN-OOZ" secondAttribute="leading" id="qtb-hV-2Pg"/>
+                                                    <constraint firstItem="awh-yg-dEt" firstAttribute="leading" secondItem="U4j-Bb-Z0h" secondAttribute="leading" constant="20" id="uEN-Kh-uiJ"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ohb-lQ-Ogx" userLabel="Dribbling">
+                                                <rect key="frame" x="0.0" y="387" width="375" height="72.666666666666686"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dribbling" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avM-5a-fBk">
+                                                        <rect key="frame" x="20" y="0.0" width="105" height="29"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
+                                                        <color key="textColor" red="0.59607843140000005" green="0.64705882349999999" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="OFi-L4-1Cy" customClass="GradientSlider" customModule="Joguito" customModuleProvider="target">
+                                                        <rect key="frame" x="18" y="39" width="299" height="26"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="thickness">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="image" keyPath="sliderThumbImage" value="Slider Thumb"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </slider>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUr-26-I9R">
+                                                        <rect key="frame" x="20" y="54" width="10" height="18.666666666666671"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="15"/>
+                                                        <color key="textColor" red="0.59607843140000005" green="0.64705882349999999" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dED-ub-ejp">
+                                                        <rect key="frame" x="340" y="29" width="15" height="29"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
+                                                        <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uxS-dr-yhv">
+                                                        <rect key="frame" x="296" y="54" width="19" height="18.666666666666671"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="15"/>
+                                                        <color key="textColor" red="0.59607843140000005" green="0.64705882349999999" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="uxS-dr-yhv" secondAttribute="bottom" id="89d-sz-pxc"/>
+                                                    <constraint firstItem="YUr-26-I9R" firstAttribute="top" secondItem="OFi-L4-1Cy" secondAttribute="bottom" constant="-10" id="EBz-eQ-40i"/>
+                                                    <constraint firstAttribute="bottom" secondItem="YUr-26-I9R" secondAttribute="bottom" id="P5O-G1-i6z"/>
+                                                    <constraint firstItem="dED-ub-ejp" firstAttribute="leading" secondItem="uxS-dr-yhv" secondAttribute="trailing" constant="25" id="PeI-Yt-17A"/>
+                                                    <constraint firstItem="YUr-26-I9R" firstAttribute="leading" secondItem="avM-5a-fBk" secondAttribute="leading" id="VY8-7i-Npv"/>
+                                                    <constraint firstItem="OFi-L4-1Cy" firstAttribute="top" secondItem="avM-5a-fBk" secondAttribute="bottom" constant="10" id="bWC-8h-Qsq"/>
+                                                    <constraint firstItem="avM-5a-fBk" firstAttribute="leading" secondItem="Ohb-lQ-Ogx" secondAttribute="leading" constant="20" id="cFO-6w-77j"/>
+                                                    <constraint firstItem="avM-5a-fBk" firstAttribute="top" secondItem="Ohb-lQ-Ogx" secondAttribute="top" id="cXE-Y4-PCW"/>
+                                                    <constraint firstItem="OFi-L4-1Cy" firstAttribute="leading" secondItem="YUr-26-I9R" secondAttribute="leading" id="gDP-p9-cTo"/>
+                                                    <constraint firstItem="dED-ub-ejp" firstAttribute="top" secondItem="avM-5a-fBk" secondAttribute="bottom" id="hYd-Lc-t3H"/>
+                                                    <constraint firstItem="uxS-dr-yhv" firstAttribute="trailing" secondItem="OFi-L4-1Cy" secondAttribute="trailing" id="msR-ki-xLF"/>
+                                                    <constraint firstItem="uxS-dr-yhv" firstAttribute="top" secondItem="OFi-L4-1Cy" secondAttribute="bottom" constant="-10" id="pog-5F-GCz"/>
+                                                    <constraint firstAttribute="trailing" secondItem="dED-ub-ejp" secondAttribute="trailing" constant="19.999999999999943" id="v7N-Rj-61c"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LVV-g7-ex0" userLabel="Physical Skills">
+                                                <rect key="frame" x="0.0" y="479.66666666666663" width="375" height="72"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Physical Skills" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsC-2S-Cy1">
+                                                        <rect key="frame" x="20" y="0.0" width="156.66666666666666" height="29"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
+                                                        <color key="textColor" red="0.59607843140000005" green="0.64705882349999999" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="sob-wY-89P" customClass="GradientSlider" customModule="Joguito" customModuleProvider="target">
+                                                        <rect key="frame" x="18" y="39" width="299" height="26"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="thickness">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="image" keyPath="sliderThumbImage" value="Slider Thumb"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </slider>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQR-gs-X7H">
+                                                        <rect key="frame" x="20" y="54" width="10" height="18"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="15"/>
+                                                        <color key="textColor" red="0.59607843140000005" green="0.64705882349999999" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6yU-La-rU5">
+                                                        <rect key="frame" x="340" y="29" width="15" height="29"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="24"/>
+                                                        <color key="textColor" red="0.90588235289999997" green="0.92549019610000005" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kMw-Au-ZMS">
+                                                        <rect key="frame" x="296" y="54" width="19" height="18"/>
+                                                        <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="15"/>
+                                                        <color key="textColor" red="0.59607843140000005" green="0.64705882349999999" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="6yU-La-rU5" secondAttribute="trailing" constant="19.999999999999943" id="8nf-8h-Anp"/>
+                                                    <constraint firstItem="sob-wY-89P" firstAttribute="top" secondItem="rsC-2S-Cy1" secondAttribute="bottom" constant="10" id="CPM-ET-HAw"/>
+                                                    <constraint firstItem="zQR-gs-X7H" firstAttribute="leading" secondItem="rsC-2S-Cy1" secondAttribute="leading" id="FiG-14-Cmn"/>
+                                                    <constraint firstItem="6yU-La-rU5" firstAttribute="top" secondItem="rsC-2S-Cy1" secondAttribute="bottom" id="Sqx-xM-iFI"/>
+                                                    <constraint firstItem="zQR-gs-X7H" firstAttribute="top" secondItem="sob-wY-89P" secondAttribute="bottom" constant="-10" id="XR2-98-nvh"/>
+                                                    <constraint firstItem="sob-wY-89P" firstAttribute="leading" secondItem="zQR-gs-X7H" secondAttribute="leading" id="cDQ-x6-dYl"/>
+                                                    <constraint firstItem="rsC-2S-Cy1" firstAttribute="leading" secondItem="LVV-g7-ex0" secondAttribute="leading" constant="20" id="crP-Qh-iJz"/>
+                                                    <constraint firstItem="kMw-Au-ZMS" firstAttribute="top" secondItem="sob-wY-89P" secondAttribute="bottom" constant="-10" id="dql-LA-grN"/>
+                                                    <constraint firstItem="rsC-2S-Cy1" firstAttribute="top" secondItem="LVV-g7-ex0" secondAttribute="top" id="ffc-3X-6l1"/>
+                                                    <constraint firstAttribute="bottom" secondItem="kMw-Au-ZMS" secondAttribute="bottom" id="gCL-O4-3aF"/>
+                                                    <constraint firstAttribute="bottom" secondItem="zQR-gs-X7H" secondAttribute="bottom" id="sp9-hA-SQW"/>
+                                                    <constraint firstItem="6yU-La-rU5" firstAttribute="leading" secondItem="kMw-Au-ZMS" secondAttribute="trailing" constant="25" id="uLc-D4-V1T"/>
+                                                    <constraint firstItem="kMw-Au-ZMS" firstAttribute="trailing" secondItem="sob-wY-89P" secondAttribute="trailing" id="xtE-kr-nxK"/>
+                                                </constraints>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbp-Vv-pFt" customClass="RoundButton" customModule="Joguito" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="764" width="335" height="48"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="wLj-hP-mbX"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="20"/>
+                                                <state key="normal" title="Finish">
+                                                    <color key="titleColor" red="0.066666666666666666" green="0.14901960784313725" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                                        <color key="value" red="1" green="0.97647058823529409" blue="0.21568627450980393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                                        <color key="value" red="0.99607843137254903" green="0.76078431372549016" blue="0.1803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="useGradient" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="lvA-sW-1Ne" firstAttribute="leading" secondItem="SEp-wP-aY0" secondAttribute="leading" constant="20" id="3s4-4B-rwf"/>
+                                            <constraint firstAttribute="bottom" secondItem="pbp-Vv-pFt" secondAttribute="bottom" id="93a-ah-NpZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="GkO-dN-dQC" secondAttribute="trailing" id="Axi-MI-U0k"/>
+                                            <constraint firstAttribute="trailing" secondItem="lvA-sW-1Ne" secondAttribute="trailing" constant="20" id="DnK-71-4Z1"/>
+                                            <constraint firstItem="pbp-Vv-pFt" firstAttribute="leading" secondItem="SEp-wP-aY0" secondAttribute="leading" constant="20" id="G02-d8-Ma3"/>
+                                            <constraint firstItem="fcE-yH-JgZ" firstAttribute="top" secondItem="lvA-sW-1Ne" secondAttribute="bottom" constant="60" id="JkN-Sq-o5I"/>
+                                            <constraint firstItem="fcE-yH-JgZ" firstAttribute="leading" secondItem="SEp-wP-aY0" secondAttribute="leading" id="L2O-W5-tyb"/>
+                                            <constraint firstItem="Ohb-lQ-Ogx" firstAttribute="top" secondItem="U4j-Bb-Z0h" secondAttribute="bottom" constant="20" id="L87-J8-z6c"/>
+                                            <constraint firstItem="Ohb-lQ-Ogx" firstAttribute="leading" secondItem="SEp-wP-aY0" secondAttribute="leading" id="N78-VI-nH6"/>
+                                            <constraint firstAttribute="trailing" secondItem="fcE-yH-JgZ" secondAttribute="trailing" id="QOs-uh-76U"/>
+                                            <constraint firstAttribute="trailing" secondItem="pbp-Vv-pFt" secondAttribute="trailing" constant="20" id="TwC-9d-Op8"/>
+                                            <constraint firstItem="GkO-dN-dQC" firstAttribute="top" secondItem="fcE-yH-JgZ" secondAttribute="bottom" constant="20" id="UKx-o9-pw9"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ohb-lQ-Ogx" secondAttribute="trailing" id="aja-nF-zXv"/>
+                                            <constraint firstItem="U4j-Bb-Z0h" firstAttribute="leading" secondItem="SEp-wP-aY0" secondAttribute="leading" id="aqr-iM-FlI"/>
+                                            <constraint firstItem="GkO-dN-dQC" firstAttribute="leading" secondItem="SEp-wP-aY0" secondAttribute="leading" id="bS8-6I-ZKt"/>
+                                            <constraint firstItem="LVV-g7-ex0" firstAttribute="leading" secondItem="SEp-wP-aY0" secondAttribute="leading" id="d44-df-Zd5"/>
+                                            <constraint firstAttribute="trailing" secondItem="U4j-Bb-Z0h" secondAttribute="trailing" id="mM7-8e-Caf"/>
+                                            <constraint firstItem="lvA-sW-1Ne" firstAttribute="top" secondItem="SEp-wP-aY0" secondAttribute="top" constant="20" id="ncr-r9-WWh"/>
+                                            <constraint firstItem="U4j-Bb-Z0h" firstAttribute="top" secondItem="GkO-dN-dQC" secondAttribute="bottom" constant="20" id="qeZ-eI-Cps"/>
+                                            <constraint firstItem="LVV-g7-ex0" firstAttribute="top" secondItem="Ohb-lQ-Ogx" secondAttribute="bottom" constant="20" id="r5Z-qN-QwG"/>
+                                            <constraint firstAttribute="trailing" secondItem="LVV-g7-ex0" secondAttribute="trailing" id="uSU-9I-zES"/>
+                                            <constraint firstItem="pbp-Vv-pFt" firstAttribute="top" relation="greaterThanOrEqual" secondItem="LVV-g7-ex0" secondAttribute="bottom" constant="50" id="xs7-Y9-tvt"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="SEp-wP-aY0" secondAttribute="bottom" id="5V5-sG-4K7"/>
+                                    <constraint firstItem="SEp-wP-aY0" firstAttribute="top" secondItem="wx8-EY-vhL" secondAttribute="top" id="BY4-1b-FGn"/>
+                                    <constraint firstItem="SEp-wP-aY0" firstAttribute="leading" secondItem="wx8-EY-vhL" secondAttribute="leading" id="NZJ-32-oSS"/>
+                                    <constraint firstAttribute="trailing" secondItem="SEp-wP-aY0" secondAttribute="trailing" id="wF4-12-jN4"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.08235294118" green="0.16862745100000001" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Ui-hw-W9R" firstAttribute="top" secondItem="LcI-PW-yb1" secondAttribute="bottom" constant="20" id="ROp-ly-SEY"/>
-                            <constraint firstItem="LcI-PW-yb1" firstAttribute="top" secondItem="RNC-0C-CCr" secondAttribute="top" constant="10" id="TFe-9B-93V"/>
-                            <constraint firstItem="6Ui-hw-W9R" firstAttribute="leading" secondItem="RNC-0C-CCr" secondAttribute="leading" constant="20" id="aJG-CG-CCa"/>
-                            <constraint firstItem="RNC-0C-CCr" firstAttribute="trailing" secondItem="6Ui-hw-W9R" secondAttribute="trailing" constant="20" id="aV0-y5-N2j"/>
-                            <constraint firstItem="LcI-PW-yb1" firstAttribute="leading" secondItem="RNC-0C-CCr" secondAttribute="leading" constant="20" id="q1z-kV-DMZ"/>
-                            <constraint firstItem="RNC-0C-CCr" firstAttribute="trailing" secondItem="LcI-PW-yb1" secondAttribute="trailing" constant="20" id="uYu-1X-cNy"/>
+                            <constraint firstItem="SEp-wP-aY0" firstAttribute="height" secondItem="RwH-HW-KnW" secondAttribute="height" priority="250" id="6ou-V2-cfR"/>
+                            <constraint firstItem="wx8-EY-vhL" firstAttribute="leading" secondItem="RNC-0C-CCr" secondAttribute="leading" id="Euo-wd-G8N"/>
+                            <constraint firstItem="wx8-EY-vhL" firstAttribute="top" secondItem="RNC-0C-CCr" secondAttribute="top" id="NWc-yK-i9F"/>
+                            <constraint firstItem="RNC-0C-CCr" firstAttribute="trailing" secondItem="wx8-EY-vhL" secondAttribute="trailing" id="YyW-VA-Zyv"/>
+                            <constraint firstItem="RNC-0C-CCr" firstAttribute="bottom" secondItem="wx8-EY-vhL" secondAttribute="bottom" id="eef-0s-p0M"/>
+                            <constraint firstItem="SEp-wP-aY0" firstAttribute="width" secondItem="RwH-HW-KnW" secondAttribute="width" id="iYO-rk-7tU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RNC-0C-CCr"/>
                         <userDefinedRuntimeAttributes>
@@ -1036,7 +1447,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1G8-Mc-63o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4033" y="-562"/>
+            <point key="canvasLocation" x="4032.8000000000002" y="-562.3152709359606"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="SWX-Qh-fXW">
@@ -1063,6 +1474,7 @@
         <image name="Facebook" width="18" height="39"/>
         <image name="Field Bg" width="562" height="358"/>
         <image name="Layer 4" width="39" height="39"/>
+        <image name="Slider Thumb" width="26" height="26"/>
         <image name="bg" width="756" height="1334"/>
         <image name="logo" width="186" height="182"/>
     </resources>

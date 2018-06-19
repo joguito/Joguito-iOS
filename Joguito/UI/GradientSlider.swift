@@ -11,60 +11,72 @@ import UIKit
 @IBDesignable
 class GradientSlider: UISlider {
     
-    @IBInspectable var thickness: CGFloat = 40
+    @IBInspectable var thickness: CGFloat = 20 {
+        didSet {
+            setup()
+        }
+    }
     
-    let color1 = UIColor(red: 226/255, green: 226/255, blue: 7/255, alpha: 1.0)
-    let color2 = UIColor(red: 225/255, green: 182/255, blue: 0/255, alpha: 1.0)
+    @IBInspectable var sliderThumbImage: UIImage? {
+        didSet {
+            setup()
+        }
+    }
     
     func setup() {
-        self.minimumTrackTintColor = colorWithGradient(frame: self.trackRect(forBounds: layer.bounds), colors: [color1, color1])
-        self.maximumTrackTintColor = UIColor.darkGray
-        self.clipsToBounds = true
+        let minTrackStartColor = Palette.SelectiveYellow
+        let minTrackEndColor = Palette.BitterLemon
+        let maxTrackColor = Palette.Firefly
+        do {
+            self.setMinimumTrackImage(try self.gradientImage(
+                size: self.trackRect(forBounds: self.bounds).size,
+                colorSet: [minTrackStartColor.cgColor, minTrackEndColor.cgColor]),
+                                      for: .normal)
+            self.setMaximumTrackImage(try self.gradientImage(
+                size: self.trackRect(forBounds: self.bounds).size,
+                colorSet: [maxTrackColor.cgColor, maxTrackColor.cgColor]),
+                                      for: .normal)
+            self.setThumbImage(sliderThumbImage, for: .normal)
+        } catch {
+            self.minimumTrackTintColor = minTrackStartColor
+            self.maximumTrackTintColor = maxTrackColor
+        }
+        setNeedsDisplay()
+    }
+    
+    func gradientImage(size: CGSize, colorSet: [CGColor]) throws -> UIImage? {
+        let tgl = CAGradientLayer()
+        tgl.frame = CGRect.init(x:0, y:0, width: size.width, height: size.height)
+        tgl.cornerRadius = size.height / 2
+        tgl.masksToBounds = false
+        tgl.colors = colorSet
+        tgl.startPoint = CGPoint.init(x:0.0, y:0.5)
+        tgl.endPoint = CGPoint.init(x:1.0, y:0.5)
+        
+        UIGraphicsBeginImageContextWithOptions(size, tgl.isOpaque, 0.0);
+        guard let context = UIGraphicsGetCurrentContext() else { return nil }
+        tgl.render(in: context)
+        let image = UIGraphicsGetImageFromCurrentImageContext()?.resizableImage(withCapInsets: UIEdgeInsets.init(top: 0, left: size.height, bottom: 0, right: size.height))
+        UIGraphicsEndImageContext()
+        return image!
     }
     
     override func trackRect(forBounds bounds: CGRect) -> CGRect {
-        let defaultBounds = super.trackRect(forBounds: bounds)
         return CGRect(
-            x: defaultBounds.origin.x,
-            y: defaultBounds.origin.y + defaultBounds.size.height/2 - thickness/2,
-            width: defaultBounds.size.width,
+            x: bounds.origin.x,
+            y: bounds.origin.y,
+            width: bounds.width,
             height: thickness
         )
     }
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
         setup()
     }
     
-    override func prepareForInterfaceBuilder() {
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
         setup()
     }
-    
-    func colorWithGradient(frame: CGRect, colors: [UIColor]) -> UIColor {
-        
-        // create the background layer that will hold the gradient
-        let backgroundGradientLayer = CAGradientLayer()
-        backgroundGradientLayer.frame = frame
-        
-        backgroundGradientLayer.startPoint = CGPoint(x: 0.0, y: 0.5)
-        backgroundGradientLayer.endPoint = CGPoint(x: 1.0, y: 0.5)
-        backgroundGradientLayer.locations = [0.0,1.0]
-        
-        // we create an array of CG colors from out UIColor array
-        let cgColors = colors.map({$0.cgColor})
-        
-        backgroundGradientLayer.colors = cgColors
-//        backgroundGradientLayer.locations = [0.0, 0.5]
-//        backgroundGradientLayer.startPoint = CGPoint(x: 0.0, y: 0.5)
-//        backgroundGradientLayer.endPoint = CGPoint(x: 1.0, y: 0.5)
-        
-        UIGraphicsBeginImageContext(backgroundGradientLayer.bounds.size)
-        backgroundGradientLayer.render(in: UIGraphicsGetCurrentContext()!)
-        let backgroundColorImage = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-        
-        return UIColor(patternImage: backgroundColorImage!)
-    }
-
 }
